@@ -1,0 +1,36 @@
+baseURL = '/'
+languageCode = 'fr-fr'
+title = 'Portfolio'
+theme = 'iutdelens'
+paginate = 5
+
+[params]
+    author = "JAKOBOWSKI Aymeric"
+    authorImage = "/images/parametres/photoProfil.svg"
+
+[[menu.main]]
+    name = "À propos"
+    url = "/a-propos-de/a-propos-de"
+
+[[menu.main]]
+    name = "Projets universitaires"
+    url = "/projets universitaires"
+
+[[menu.main]]
+    name = "Catégories"
+    url = "/categories"
+
+
+[[menu.social]]
+    name = "GitLab"
+    url = "https://gitlab.univ-artois.fr/aymeric_jakobowski"
+    pre = "<i class='fab fa-gitlab'></i>"
+
+[[menu.social]]
+    name = "Linkedin"
+    url = "https://www.linkedin.com/in/aymeric-jakobowski"
+    pre = "<i class='fab fa-linkedin'></i>"
+
+[[menu.footer]]
+    name = "À propos"
+    url = "/a-propos-de"
