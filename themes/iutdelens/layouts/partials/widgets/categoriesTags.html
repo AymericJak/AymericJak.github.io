@@ -1,0 +1,21 @@
+{{ range $index, $.Params.categories }}
+{{ if eq $index "Projet universitaire"}}
+    <span class="tag is-warning">
+        <a class="has-text-black" href="{{ "categories/" | relURL }}{{ $index | urlize }}">
+            {{ $index }}
+        </a>
+    </span>
+{{ else if eq $index "Projet personnel" }}
+    <span class="tag is-success">
+        <a class="has-text-white" href="{{ "categories/" | relURL }}{{ $index | urlize }}">
+            {{ $index }}
+        </a>
+    </span>
+{{ else }}
+    <span class="tag is-link is-light ">
+        <a class="has-text-black" href="{{ "categories/" | relURL }}{{ $index | urlize }}">
+            {{ $index }}
+        </a>
+    </span>
+{{ end }}
+{{ end }}
