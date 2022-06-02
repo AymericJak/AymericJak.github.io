@@ -13,8 +13,8 @@ paginate = 5
     url = "/a-propos-de/a-propos-de"
 
 [[menu.main]]
-    name = "Projets universitaires"
-    url = "/projets universitaires"
+    name = "Projets"
+    url = "/projets"
 
 [[menu.main]]
     name = "Catégories"
