@@ -9,7 +9,6 @@ draft: false
 
 Projet dans lequel vous interagissez actuellement.
 
-
 #### Découverte de HUGO
 
 1. Découverte d’un CMS
