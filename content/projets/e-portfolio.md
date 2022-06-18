@@ -7,14 +7,21 @@ description : "L'objectif de ce projet est de découvrir l'utilisation d'un CMS,
 draft: false
 ---
 
+Projet dans lequel vous interagissez actuellement.
+
+
 #### Découverte de HUGO
 
-Proin egestas interdum tincidunt. Sed a tellus tempor, accumsan sem eget, sagittis orci.  Vivamus at purus velit. Cras in lectus eu nisi mattis malesuada. Nam a elit in mauris tincidunt  pharetra sagittis ut dui. Pellentesque in arcu at dolor placerat sollicitudin. Fusce euismod  orci tellus, eget consequat massa blandit eu. Cras sed mi non lorem ornare pellentesque.  Phasellus eget velit sagittis mauris convallis dapibus. Quisque suscipit augue et varius posuere.  Etiam eget consectetur massa.
+1. Découverte d’un CMS
 
-Aliquam erat volutpat. Sed a tempor erat. Donec porttitor ut ante quis bibendum. Mauris  suscipit pharetra purus sit amet venenatis. Pellentesque elit nisl, viverra ut nisl et, viverra  lacinia lorem. Aenean ut velit congue, scelerisque tellus et, maximus arcu. Mauris id nulla et  erat aliquet vestibulum vitae vel risus. Nunc pellentesque, sapien tempor dictum placerat,  ipsum eros congue eros, at pellentesque arcu ex at nulla. Donec sodales eget leo non iaculis.  Donec auctor est id magna sollicitudin feugiat.
+Au sein de ce projet, nous avons pu découvrir ce qu’est un CMS (Content Management System) et son importance. Ce dernier permet de concevoir, gérer et mettre à jour un site web en toute simplicité. De ce fait, comme dis plus tôt dans l’article, ce site e-portfolio a été réalisé par un CMS qui n’est nul autre que HUGO.
+Pourquoi avoir fait le choix de ce CMS ? Pour la simple raison du type de contenu que nous allons proposer. Dans le cadre de ce site web, donc un site vitrine avec du contenu statique, l’utilisation du CMS Wordpress n’était pas nécessaire pour des raisons d’optimisation.
 
-### Découverte du Framework *Bulma*
+2. Langage d’écriture markdown
 
-In sit amet tortor ultricies, tempor mi at, eleifend eros. Curabitur sit amet lectus eget  magna mollis iaculis vel et mauris. Fusce quis urna eleifend, consequat nulla quis, sodales nisi.  Donec bibendum hendrerit neque, euismod pretium arcu rutrum nec. Fusce pharetra dolor ut velit  pellentesque, quis scelerisque ante sagittis. Morbi placerat lorem vel elementum pulvinar.  Donec ligula orci, sagittis quis aliquam tristique, blandit sit amet enim. Nam vehicula magna at  nisl porttitor consequat. Phasellus placerat quis felis sed faucibus. Sed in dignissim lacus,  in porttitor massa. Aenean porta, velit sit amet scelerisque rhoncus, ligula arcu faucibus  leo, eu consequat eros libero eu est.
+Ce CMS utilise le Markdown pour les pages de contenus, donc cela m’a permis de reprendre les bases de langage.
 
-Donec vitae est sapien. Quisque tempus lectus metus, ac eleifend sem pulvinar ut. Orci varius  natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. In a nisl  consectetur, varius lorem eget, posuere leo. Integer imperdiet turpis ut odio tincidunt, ut  mattis diam dignissim. In nulla odio, accumsan sit amet euismod vitae, mollis at nisl. Nam  eget blandit mauris, at hendrerit nibh.  Vestibulum placerat tincidunt cursus. Phasellus  molestie tempor augue, sit amet maximus dui ultricies ac.
+#### Découverte du Framework *Bulma*
+
+Nous avons ainsi pu découvrir dans ce projet le framework bulma.
+Un framework simplifie grandement la création d’un site. Que ce soit en termes d’écriture du code ou même en termes de rapidité dans la tâche.
