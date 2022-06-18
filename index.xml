@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>PAGE Accueilllllll :  on Portfolio</title>
+    <link>/</link>
+    <description>Recent content in PAGE Accueilllllll :  on Portfolio</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-fr</language>
+    <lastBuildDate>Sun, 29 May 2022 19:12:00 +0200</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Application Gestion Ventes</title>
+      <link>/projets/appli_gestion_vente/</link>
+      <pubDate>Sun, 29 May 2022 19:12:00 +0200</pubDate>
+      
+      <guid>/projets/appli_gestion_vente/</guid>
+      <description>Dans ce projet a été réalisée une application de gestion de ventes
+Partie I Dans cette première partie, la réalisation d’une application de gestion de ventes sans interface graphique est de mise. Celle-ci va permettre de mettre en oeuvre toutes nos compétences apprises en Java.
+  Java   Nous avons donc dû réaliser différents paquetages :
+  Le paquetage article Celui-ci va permettre la gestion des articles présents dans notre application.</description>
+    </item>
+    
+    <item>
+      <title>e-portfolio</title>
+      <link>/projets/e-portfolio/</link>
+      <pubDate>Sun, 29 May 2022 19:12:00 +0200</pubDate>
+      
+      <guid>/projets/e-portfolio/</guid>
+      <description>Projet dans lequel vous interagissez actuellement.
+Découverte de HUGO  Découverte d’un CMS  Au sein de ce projet, nous avons pu découvrir ce qu’est un CMS (Content Management System) et son importance. Ce dernier permet de concevoir, gérer et mettre à jour un site web en toute simplicité. De ce fait, comme dis plus tôt dans l’article, ce site e-portfolio a été réalisé par un CMS qui n’est nul autre que HUGO.</description>
+    </item>
+    
+    <item>
+      <title>Dragon Expo</title>
+      <link>/projets/dragon_expo/</link>
+      <pubDate>Sun, 29 May 2022 19:00:00 +0200</pubDate>
+      
+      <guid>/projets/dragon_expo/</guid>
+      <description>Voici le premier projet concret que j’ai réalisé en informatique. Dans ce projet, la création d’une entreprise d&amp;rsquo;événementiel était de mise. Afin d’en améliorer sa communication, la réalisation d’un site web et de son design était nécessaire.
+CRÉATION DE L’ENTREPRISE La première étape consistait à réaliser un brainstorming pour en savoir plus sur le type d’événement que nous proposons. Une fois notre thème trouvé, en l&amp;rsquo;occurrence ici : une exposition sur les dragons, nous avons réalisé différents personas afin de déterminer les potentielles cibles de notre entreprise.</description>
+    </item>
+    
+    <item>
+      <title>À propos de moi :</title>
+      <link>/a-propos-de/a-propos-de/</link>
+      <pubDate>Fri, 01 May 2020 19:12:00 +0200</pubDate>
+      
+      <guid>/a-propos-de/a-propos-de/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>A-propos-des on Portfolio</title>
+    <link>/a-propos-de/</link>
+    <description>Recent content in A-propos-des on Portfolio</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-fr</language>
+    <lastBuildDate>Fri, 01 May 2020 19:12:00 +0200</lastBuildDate><atom:link href="/a-propos-de/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>À propos de moi :</title>
+      <link>/a-propos-de/a-propos-de/</link>
+      <pubDate>Fri, 01 May 2020 19:12:00 +0200</pubDate>
+      
+      <guid>/a-propos-de/a-propos-de/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

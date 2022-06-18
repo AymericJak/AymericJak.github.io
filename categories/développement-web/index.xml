@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Développement web on Portfolio</title>
+    <link>/categories/d%C3%A9veloppement-web/</link>
+    <description>Recent content in Développement web on Portfolio</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-fr</language>
+    <lastBuildDate>Sun, 29 May 2022 19:12:00 +0200</lastBuildDate><atom:link href="/categories/d%C3%A9veloppement-web/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>e-portfolio</title>
+      <link>/projets/e-portfolio/</link>
+      <pubDate>Sun, 29 May 2022 19:12:00 +0200</pubDate>
+      
+      <guid>/projets/e-portfolio/</guid>
+      <description>Projet dans lequel vous interagissez actuellement.
+Découverte de HUGO  Découverte d’un CMS  Au sein de ce projet, nous avons pu découvrir ce qu’est un CMS (Content Management System) et son importance. Ce dernier permet de concevoir, gérer et mettre à jour un site web en toute simplicité. De ce fait, comme dis plus tôt dans l’article, ce site e-portfolio a été réalisé par un CMS qui n’est nul autre que HUGO.</description>
+    </item>
+    
+    <item>
+      <title>Dragon Expo</title>
+      <link>/projets/dragon_expo/</link>
+      <pubDate>Sun, 29 May 2022 19:00:00 +0200</pubDate>
+      
+      <guid>/projets/dragon_expo/</guid>
+      <description>Voici le premier projet concret que j’ai réalisé en informatique. Dans ce projet, la création d’une entreprise d&amp;rsquo;événementiel était de mise. Afin d’en améliorer sa communication, la réalisation d’un site web et de son design était nécessaire.
+CRÉATION DE L’ENTREPRISE La première étape consistait à réaliser un brainstorming pour en savoir plus sur le type d’événement que nous proposons. Une fois notre thème trouvé, en l&amp;rsquo;occurrence ici : une exposition sur les dragons, nous avons réalisé différents personas afin de déterminer les potentielles cibles de notre entreprise.</description>
+    </item>
+    
+  </channel>
+</rss>
