@@ -28,7 +28,7 @@ main {
 
 .slides {
 	width: calc(800px *3);
-	animation: glisse 30s infinite;
+	animation: glisse 25s infinite;
 }
 
 .slide {
@@ -76,7 +76,7 @@ main {
 	
 	.slides {
 		width: calc(400px *3);
-		animation: glisse 30s infinite;
+		animation: glisse 25s infinite;
 	}
 	
 	.slide {
