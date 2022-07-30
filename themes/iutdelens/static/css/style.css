@@ -1,11 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap');
+
 body {
 	display: flex;
 	flex-direction: column;
 	min-height: 100vh;
 }
 
+#home-part1 {
+	height: calc(100vh - 63px) !important;
+}
+
+#home-part2 {
+	height: 100vh;
+}
+
+h1{
+	font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.navbar-item img {
+    max-height: 2.75rem;
+}
+
+span.logo{
+	margin: 10px;
+}
+
 main {
-	flex: 1;	
+	flex: 1;
 }
 
 #image_profil {

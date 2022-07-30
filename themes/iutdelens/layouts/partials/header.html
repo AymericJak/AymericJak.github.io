@@ -3,7 +3,10 @@
         <div class="container">
             <div class="navbar-brand">
                 <a href="/" title="home" class="navbar-item">
-                    <span class="logo"><h1 class="title is-3">{{ .Site.Title }}</h1></span>
+                    <img class="logo" id="image_logo" src="/images/logo_JAK.svg" alt="LOGO">
+                    <span class="logo">
+                        <h1 class="title is-4">{{ .Site.Title }}</h1>
+                    </span>
                 </a>
                 {{ range .Site.Menus.social }}
                 <a href="{{ .URL }}" class="navbar-item is-hidden-desktop" title="{{ .Name }}">
