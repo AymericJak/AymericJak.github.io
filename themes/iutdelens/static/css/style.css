@@ -11,6 +11,7 @@ body,.navbar{
 .navbar{
 	border-bottom: solid 2px black;
 }
+
 .footer {
 	background-color: #f4f2eb;
 	border-top: 2px solid black;
@@ -20,6 +21,10 @@ body {
 	display: flex;
 	flex-direction: column;
 	min-height: 100vh;
+}
+
+#home-part1 {
+	height: calc(100vh - 63px) !important;
 }
 
 .name-homepage{
@@ -36,15 +41,56 @@ body {
 	font-size: clamp(18px,5vw,30px);
 }
 
-#home-part1 {
-	height: calc(100vh - 63px) !important;
+#home-flex{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: stretch;
+	align-content: stretch;
 }
 
-#home-part2, #home-part3, #home-part4, #home-part5 {
+.home-button{
+	display: block;
+	overflow: hidden;
+	text-align: center;
+	position: relative;
+	cursor: pointer;
+	padding: 3.5vh;
+	letter-spacing: 10px;
+	text-transform: uppercase;
+	font-size: large;
+	margin: 0 20px;
+	border: black solid 2px;
+}
+
+.home-button::before{
+	content: "";
+    position: absolute;
+    height: 100%;
+	width: 0;
+    background : rgb(248, 186, 131);
+    left: 0;
+    bottom: 0;
+    transition: all .3s;
+    opacity: 0.7;
+}
+
+.home-button:hover::before{
+	width: 100%;
+	left: 0;
+}
+
+#home-flex a{
+	color: black;
+	font-weight: bold;
+}
+
+#home-part2, #home-part3, #home-part4 {
 	min-height: 100vh;
 }
 
-#home-part6 {
+#home-part5 {
 	height: calc(100vh - 168px);
 }
 
