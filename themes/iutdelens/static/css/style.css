@@ -3,8 +3,11 @@
 *::selection{
 	background-color: #ccc5b99c;
 }
+html {
+	scroll-behavior: smooth;
+}
 
-body,.navbar{
+html,.navbar{
 	background-color: #fffcf2;
 }
 
@@ -24,7 +27,7 @@ body {
 }
 
 #home-part1 {
-	height: calc(100vh - 63px) !important;
+	min-height: calc(100vh - 63px) !important;
 }
 
 .name-homepage{
@@ -50,41 +53,60 @@ body {
 	align-content: stretch;
 }
 
-.home-button{
-	display: block;
-	overflow: hidden;
-	text-align: center;
-	position: relative;
-	cursor: pointer;
-	padding: 3.5vh;
-	letter-spacing: 10px;
-	text-transform: uppercase;
-	font-size: large;
-	margin: 0 20px;
-	border: black solid 2px;
-}
-
-.home-button::before{
-	content: "";
-    position: absolute;
-    height: 100%;
-	width: 0;
-    background : rgb(248, 186, 131);
-    left: 0;
-    bottom: 0;
-    transition: all .3s;
-    opacity: 0.7;
-}
-
-.home-button:hover::before{
-	width: 100%;
-	left: 0;
-}
-
 #home-flex a{
 	color: black;
 	font-weight: bold;
 }
+
+.linkButtons {
+	transition: ease-in-out;
+}
+
+.allButtons {
+	width: 100%;
+	height: 100%;
+	padding: 20px 44px;
+    cursor: pointer; 
+    overflow: hidden;
+    background: none;
+    font-size: large;
+    border-radius: 4px;
+    position: relative;
+    transition: all 0.4s;
+
+	letter-spacing: 10px;
+	text-transform: uppercase;
+	font-size: clamp(18px,1vw,29px);
+	font-weight: 600;
+}
+
+#projetctButton, #experienceButton, #skillButton {
+    border: solid 5px #016fb9;
+    color: #016fb9;
+}
+
+#projetctButton:hover, #experienceButton:hover, #skillButton:hover {
+    color: white;
+}
+
+#projetctButton::before, #experienceButton::before, #skillButton::before {
+    content: '';
+    position: absolute; 
+    background-color: #016fb9;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: ease-out 0.25s;
+    /* border-radius: 45%; */
+    transform: scale(0);
+}
+
+#projetctButton:hover::before, #experienceButton:hover::before, #skillButton:hover::before {
+    transform: scale(1.5);
+}
+
 
 #home-part2, #home-part3, #home-part4 {
 	min-height: 100vh;
