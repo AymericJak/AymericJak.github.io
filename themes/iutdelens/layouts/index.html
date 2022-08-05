@@ -20,22 +20,45 @@
     <div class="slider">
         <div class="slides">
             {{ range (where .Site.RegularPages "Type" "projets" | first 3) }}
-                <div class="slide is-5by3">
-                    <figure class="is-5by3">
-                        <img class="image_accueil" src="{{.Params.image}}" alt="">
-                    </figure>
-                    <h3 class="subtitle is-3 has-text-centered"><a href="{{.Permalink}}">{{.Title}}</a></h3>
-                    <h3 class="has-text-centered">{{ partial "widgets/categoriesTags" . }}</h3>
-                </div>
+            <div class="slide is-5by3">
+                <figure class="is-5by3">
+                    <img class="image_accueil" src="{{.Params.image}}" alt="">
+                </figure>
+                <h3 class="subtitle is-3 has-text-centered"><a href="{{.Permalink}}">{{.Title}}</a></h3>
+                <h3 class="has-text-centered">{{ partial "widgets/categoriesTags" . }}</h3>
+            </div>
             {{ end }}
         </div>
     </div>
 </div>
 
 <div id="home-part3" class="section">
-    <h1 class="title has-text-centered is-1">Mon parcours</h1>
+    <h1 class="title has-text-centered is-1">Parcours</h1>
     <br>
-    <img src="" alt="ANIMATION TIMELINE">
+    <ul>
+        <li>
+            <div>
+                <time>2018 - 2021</time>
+                <p>Lycée Val de Lys, Estaires (59940)</p>
+                <p>Baccalauréat général</p>
+                <p>
+                    Spécialités : Mathématiques | SVT
+                    Mention 'Bien'
+                </p>
+            </div>
+        </li>
+
+        <li>
+            <div>
+                <time>2021 - 202X</time>
+                <p>IUT de Lens, Lens (62300)</p>
+                <p>BUT Informatique [1ère année obtenue]</p>
+                <p>
+                    Parcours : 'parcours réalisation d'applications : conception, développement, validation'
+                </p>
+            </div>
+        </li>
+    </ul>
 </div>
 
 <div id="home-part4" class="section">
