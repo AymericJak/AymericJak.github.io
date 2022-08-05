@@ -9,10 +9,6 @@ paginate = 5
     authorImage = "/images/parametres/photoProfil.svg"
 
 [[menu.main]]
-    name = "À propos"
-    url = "/a-propos-de/a-propos-de"
-
-[[menu.main]]
     name = "Projets"
     url = "/projets"
 
@@ -32,5 +28,9 @@ paginate = 5
     pre = "<i class='fab fa-linkedin'></i>"
 
 [[menu.footer]]
-    name = "À propos"
-    url = "/a-propos-de"
+    name = "Projets"
+    url = "/projets"
+
+[[menu.footer]]
+    name = "Catégories"
+    url = "/categories"

@@ -2,10 +2,35 @@
     <div class="container">
         <div class="columns has-text-centered">
             {{ range .Site.Menus.footer }}
-                <div class="column is-narrow">
-                    <a href="{{ .URL }}/a-propos-de" class="">{{ .Name }}</a>
-                </div>
+            <div class="column is-narrow">
+                <a href="{{ .URL }}" class="">{{ .Name }}</a>
+            </div>
             {{ end }}
+        </div>
+        <div class="columns has-text-centered">
+            <div class="column is-narrow">
+                <a class="js-modal-trigger" data-target="mon-cv">
+                    Mon CV
+                </a>
+            </div>
+        </div>
+        
+        <div id="mon-cv" class="modal">
+            <div class="modal-background"></div>
+            
+            <div class="modal-content">
+                <p class="image">
+                    <img src="/images/a-propos-de/CV_version_2.svg" alt="CV">
+                </p>
+            </div>
+            <button class="modal-close is-large" aria-label="close"></button>
+            
+            
+            <a class="has-text-white" href="/CV_version_2.pdf" download="CV_JAKOBOWSKI_Aymeric.pdf">
+                <button class="modal-content button is-link">
+                    Télécharger au format .pdf
+                </button>
+            </a>
         </div>
     </div>
 </footer>
