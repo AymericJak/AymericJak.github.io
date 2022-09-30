@@ -13,6 +13,8 @@ html,.navbar{
 
 .navbar-link.is-active, .navbar-link:focus, .navbar-link:focus-within, .navbar-link:hover, a.navbar-item.is-active, a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover {
 	background: #ccc5b9;
+	color: #403d39;
+	transition: all 0.25s;
 }
 
 .navbar{
@@ -36,7 +38,7 @@ body {
 }
 
 .name-homepage{
-	font-size: clamp(50px,12vw,110px);
+	font-size: clamp(63px,8vw,120px);
 	font-weight: 700;
 	background-clip: text;
 	-webkit-background-clip: text;
@@ -110,6 +112,16 @@ body {
 
 #projetctButton:hover::before, #experienceButton:hover::before, #skillButton:hover::before {
 	transform: scale(1.5);
+}
+
+
+@media screen and (max-width: 1023px) {
+	#home-name{
+		height: calc(40vh - 63px);
+	}
+	#home-flex{
+		height: calc(100vh - 63px - 43vh);
+	}
 }
 
 
@@ -234,17 +246,18 @@ time {
 
 .skills {
 	text-align: right;
-	padding: 15px 0;
+	padding: 15px 20px;
 	color: white;
+	background-color: #016FB9;
 }
 
-.html {width: 85%; background-color: #016fb9;} 
-.css {width: 80%; background-color: #016fb9;} 
-.js {width: 25%; background-color: #016fb9;} 
-.sql {width: 70%; background-color: #016fb9;} 
-.java {width: 60%; background-color: #016fb9;} 
-.python {width: 55%; background-color: #016fb9;}
-.git {width: 30%; background-color: #016fb9;} 
+.html {width: 85%;} 
+.css {width: 80%;} 
+.js {width: 25%;} 
+.sql {width: 70%;} 
+.java {width: 60%;} 
+.python {width: 55%;}
+.git {width: 30%;} 
 
 
 
@@ -323,7 +336,10 @@ main {
 	}
 }
 
+
+
 @media screen and (max-width: 835px) {
+
 	.image_accueil {
 		width: 400px;
 	}

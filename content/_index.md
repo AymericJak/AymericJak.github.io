@@ -1,3 +1,3 @@
 ---
-title: "PAGE Accueilllllll : "
+title: "PAGE Accueil : "
 ---
