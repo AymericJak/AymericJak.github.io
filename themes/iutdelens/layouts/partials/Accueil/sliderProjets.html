@@ -1,0 +1,13 @@
+<div class="slider">
+    <div class="slides">
+        {{ range (where .Site.RegularPages "Type" "projets" | first 3) }}
+        <div class="slide is-5by3">
+            <figure class="is-5by3">
+                <img class="image_accueil" src="{{.Params.image}}" alt="">
+            </figure>
+            <h3 class="subtitle is-3 has-text-centered"><a href="{{.Permalink}}">{{.Title}}</a></h3>
+            <h3 class="has-text-centered">{{ partial "widgets/categoriesTags" . }}</h3>
+        </div>
+        {{ end }}
+    </div>
+</div>

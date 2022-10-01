@@ -10,98 +10,34 @@
         <a class="linkButtons" href="#home-part2"><button class="allButtons" id="projetctButton">Projets</button></a>
         <a class="linkButtons" href="#home-part3"><button class="allButtons" id="experienceButton">Parcours</button></a>
         <a class="linkButtons" href="#home-part4"><button class="allButtons" id="skillButton">Compétences</button></a>
+        <a class="linkButtons" href="#home-part5"><button class="allButtons" id="contactButton">contact</button></a>
     </div>
 </div>
 
 <div id="home-part2" class="section">
     <h1 class="title has-text-centered is-1">Projets récents :</h1>
     <br>
-    <div class="slider">
-        <div class="slides">
-            {{ range (where .Site.RegularPages "Type" "projets" | first 3) }}
-            <div class="slide is-5by3">
-                <figure class="is-5by3">
-                    <img class="image_accueil" src="{{.Params.image}}" alt="">
-                </figure>
-                <h3 class="subtitle is-3 has-text-centered"><a href="{{.Permalink}}">{{.Title}}</a></h3>
-                <h3 class="has-text-centered">{{ partial "widgets/categoriesTags" . }}</h3>
-            </div>
-            {{ end }}
-        </div>
-    </div>
+    {{ partial "Accueil/sliderProjets" . }}
 </div>
 
 <div id="home-part3" class="section">
     <h1 class="title has-text-centered is-1">Parcours</h1>
     <br>
-    <ul>
-        <li>
-            <div>
-                <time>2021 - 202X</time>
-                <p>IUT de Lens, Lens (62300)</p>
-                <p>BUT Informatique [1ère année obtenue]</p>
-                <p>
-                    Parcours : 'parcours réalisation d'applications : conception, développement, validation'
-                </p>
-            </div>
-        </li>
-
-        <li>
-            <div>
-                <time>2018 - 2021</time>
-                <p>Lycée Val de Lys, Estaires (59940)</p>
-                <p>Baccalauréat général</p>
-                <p>
-                    Spécialités : Mathématiques | SVT
-                    Mention 'Bien'
-                </p>
-            </div>
-        </li>
-
-    </ul>
+    {{ partial "Accueil/parcours" . }}
 </div>
 
 <div id="home-part4" class="section">
     <h1 class="title has-text-centered is-1">Compétences</h1>
     <br>
-    <div class="allSkills">
-        <div class="skill-box">
-            <div class="skills html">HTML - 85%</div>
-        </div>
-        
-        <div class="skill-box">
-            <div class="skills css">CSS - 80%</div>
-        </div>
-        
-        <div class="skill-box">
-            <div class="skills js">JavaScript - 25%</div>
-        </div>
-        
-        <div class="skill-box">
-            <div class="skills sql">SQL - 70%</div>
-        </div>
-        
-        <div class="skill-box">
-            <div class="skills java">Java - 60%</div>
-        </div>
-        
-        <div class="skill-box">
-            <div class="skills python">Python - 55%</div>
-        </div>
-        
-        <div class="skill-box">
-            <div class="skills git">Git - 30%</div>
-        </div>
-        
-    </div>
+    {{ partial "Accueil/competencesResume" . }}
+    <a class="level-right is-size-3 has-text-weight-bold" href="/competences">En savoir plus</a>
 </div>
 
 <div id="home-part5" class="section">
-    <h1 class="title has-text-centered is-1">Plus d'informations [En cours]</h1>
+    <h1 class="title has-text-centered is-1">Me contacter</h1>
     <br>
-    <img class="workInProgImg" src="images/workInProgress.svg" alt="workInProgress">
-    <a class="workInProgImg" href="https://storyset.com/work">Work illustrations by Storyset</a>
+    {{ partial "Accueil/contact" . }}
 </div>
 
-
+<script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
 {{ end }}
