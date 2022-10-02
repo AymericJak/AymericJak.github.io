@@ -1,22 +1,27 @@
 {{ define "main"}}
 
 <div class="container">
-    <div class="skill-container">
-        <div class="container-tab">
-            <div data-anim="1" class="tabs-name active-tab is-size-5">Langages</div>
-            <div data-anim="2" class="tabs-name is-size-5">IDE</div>
-            <div data-anim="3" class="tabs-name is-size-5">Gestion de projet</div>
-        </div>
         
-        <div data-anim="1" class="tab-content active-content">
+    <div class="tabs-container">
+        <div class="tabs-button-container">
+            <button data-content="1" class="tab-button active-tab">
+                Langages
+            </button>
+            <button data-content="2" class="tab-button">
+                IDE
+            </button>
+            <button data-content="3" class="tab-button">
+                GPO
+            </button>
+        </div>
+
+        <div data-content="1" class="tab-content active-content">
             {{ partial "Competences/langages" . }}
         </div>
-
-        <div data-anim="2" class="tab-content">
+        <div data-content="2" class="tab-content">
             {{ partial "Competences/ide" . }}
         </div>
-
-        <div data-anim="3" class="tab-content">
+        <div data-content="3" class="tab-content">
             {{ partial "Competences/gpo" . }}
         </div>
     </div>

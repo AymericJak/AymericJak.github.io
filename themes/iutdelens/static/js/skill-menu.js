@@ -1,4 +1,4 @@
-const tabs = document.querySelectorAll(".tabs-name")
+const tabs = document.querySelectorAll(".tab-button")
 const contents = document.querySelectorAll('.tab-content')
 let numTabAct = 1;
 let numTabPrec = -1;
@@ -18,7 +18,7 @@ tabs.forEach(tab => {
             contents[numTabPrec-1].classList.remove('active-content');
         }
 
-        numTabAct = tab.getAttribute('data-anim');
+        numTabAct = tab.getAttribute('data-content');
         console.log(numTabAct);
         contents[numTabAct-1].classList.add('active-content');
 
