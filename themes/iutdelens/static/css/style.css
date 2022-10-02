@@ -89,16 +89,16 @@ body {
 	font-weight: 600;
 }
 
-#projetctButton, #experienceButton, #skillButton, #contactButton {
+.animHoverbutton {
 	border: solid 5px #016fb9;
 	color: #016fb9;
 }
 
-#projetctButton:hover, #experienceButton:hover, #skillButton:hover {
+.animHoverbutton:hover {
 	color: white;
 }
 
-#projetctButton::before, #experienceButton::before, #skillButton::before {
+.animHoverbutton::before {
 	content: '';
 	position: absolute; 
 	background-color: #016fb9;
@@ -112,7 +112,7 @@ body {
 	transform: scale(0);
 }
 
-#projetctButton:hover::before, #experienceButton:hover::before, #skillButton:hover::before {
+.animHoverbutton:hover::before {
 	transform: scale(1.5);
 }
 
@@ -405,14 +405,17 @@ main {
 
 .tab-button {
 	border: none;
-	padding: 2em 0;
+	padding: 1.2em 0;
 	background-color: transparent;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	flex-basis: 100%;
 	cursor: pointer;
-	font-size: large;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+	font-size: clamp(15px,2.5vw,22px);
+	font-weight: 700;
 }
 
 .tab-button:not(:last-child){

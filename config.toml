@@ -16,6 +16,9 @@ paginate = 5
     name = "Catégories"
     url = "/categories"
 
+[[menu.main]]
+    name = "Compétences"
+    url = "/competences"
 
 [[menu.social]]
     name = "GitLab"
