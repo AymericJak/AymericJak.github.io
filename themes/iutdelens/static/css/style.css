@@ -389,7 +389,6 @@ main {
 }
 
 .tabs-container{
-	background-color: #ccc5b9;
 	width: 100%;
 	margin: 8vh auto;
 	border: 2px solid black;
@@ -399,8 +398,11 @@ main {
 }
 
 .tabs-button-container {
+	background-color: #ccc5b9;
 	display: flex;
 	border-bottom: 1px solid black;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
 }
 
 .tab-button {
@@ -416,6 +418,11 @@ main {
 	text-transform: uppercase;
 	font-size: clamp(15px,2.5vw,22px);
 	font-weight: 700;
+}
+
+.tab-button:not(.active-tab):hover {
+	background-color: #89BBDC;
+	transition: ease-in-out 0.25s;
 }
 
 .tab-button:not(:last-child){
@@ -451,5 +458,15 @@ main {
 }
 
 .compPage {
-	height: 65vh;
+	height: 70vh;
+	width: 100%;
+}
+
+.skills-box-compPage {
+	width: 100%;
+	margin-bottom: 1rem;
+}
+
+.box {
+	background-color: #f4f2eb;
 }
