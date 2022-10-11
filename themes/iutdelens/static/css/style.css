@@ -5,14 +5,15 @@
 }
 html {
 	scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
-html,.navbar{
+html, .navbar {
 	background-color: #fffcf2;
 }
 
+
 .navbar-link.is-active, .navbar-link:focus, .navbar-link:focus-within, .navbar-link:hover, a.navbar-item.is-active, a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover {
-	background: #ccc5b9;
 	color: #403d39;
 	transition: all 0.25s;
 }
@@ -253,12 +254,20 @@ time {
 	background-color: #016FB9;
 }
 
+.php {width: 35%;} 
+.js {width: 35%;} 
+.laravel {width: 35%;} 
+.flask {width: 60%;} 
+.hugo {width: 70%;} 
 .html {width: 85%;} 
-.css {width: 80%;} 
-.js {width: 25%;} 
+.css {width: 78%;} 
+
 .sql {width: 70%;} 
+.postgres {width: 70%;} 
+
 .java {width: 60%;} 
 .python {width: 55%;}
+
 .git {width: 30%;} 
 
 
