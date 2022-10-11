@@ -14,8 +14,13 @@ html, .navbar {
 
 
 .navbar-link.is-active, .navbar-link:focus, .navbar-link:focus-within, .navbar-link:hover, a.navbar-item.is-active, a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover {
+	background: #ccc5b9;
 	color: #403d39;
 	transition: all 0.25s;
+}
+
+hr {
+	background-color: #ccc5b9;
 }
 
 .navbar{
@@ -87,7 +92,7 @@ body {
 	letter-spacing: 10px;
 	text-transform: uppercase;
 	font-size: clamp(18px,1vw,29px);
-	font-weight: 600;
+	font-weight: 700;
 }
 
 .animHoverbutton {
@@ -102,7 +107,7 @@ body {
 .animHoverbutton::before {
 	content: '';
 	position: absolute; 
-	background-color: #016fb9;
+	background: #016fb9;
 	top: 0;
 	right: 0;
 	left: 0;
@@ -251,7 +256,8 @@ time {
 	text-align: right;
 	padding: 15px 20px;
 	color: white;
-	background-color: #016FB9;
+	background: linear-gradient(90deg,#016FB9,#519acb);
+	font-weight: bolder;
 }
 
 .php {width: 35%;} 
@@ -407,9 +413,9 @@ main {
 }
 
 .tabs-button-container {
-	background-color: #ccc5b9;
+	/* background-color: #ccc5b9; */
 	display: flex;
-	border-bottom: 1px solid black;
+	border-bottom: 2px solid black;
 	border-top-left-radius: 8px;
 	border-top-right-radius: 8px;
 }
@@ -457,7 +463,7 @@ main {
 
 
 .active-tab {
-	background-color: #016fb9;
+	background: linear-gradient(0deg,#016FB9,#519acb);
 	color: white;
 }
 

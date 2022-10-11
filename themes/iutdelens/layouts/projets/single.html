@@ -2,7 +2,7 @@
 <div class="container">
     <div class="section">
         <div class="content">
-            <h1 class="title has-text-centered is-3">{{.Title}}</h1>
+            <h1 class="title has-text-centered is-1">{{.Title}}</h1>
             <hr>
             <div class="columns is-vcentered">
                 <div class="column">
@@ -10,9 +10,11 @@
                         <img src="{{.Params.image}}">
                     </figure>
                 </div>
+                
                 <div class="column">
-                    {{ partial "widgets/CI_Projet" . }}
+                    {{partial "widgets/CI_Projet" .}}
                 </div>
+
             </div>
             <hr>
         </div>
