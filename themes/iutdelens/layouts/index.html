@@ -1,5 +1,6 @@
 {{ define "main" }}
 
+
 <div id="home-part1" class="section columns is-desktop">
     <div id="home-name" class="column is-three-fifths-desktop">
         <h1 class="title has-text-centered name-homepage">JAKOBOWSKI</h1>
@@ -14,6 +15,8 @@
     </div>
 </div>
 
+<hr>
+
 <div id="home-part2" class="section">
     <h1 class="title has-text-centered is-1">Projets récents :</h1>
     <br>
@@ -22,11 +25,17 @@
     <a class="level-item is-size-3 has-text-weight-bold" href="/projets">Plus de projets</a>
 </div>
 
+<hr>
+
 <div id="home-part3" class="section">
     <h1 class="title has-text-centered is-1">Parcours</h1>
     <br>
     {{ partial "Accueil/parcours" . }}
+    <a class="level-item is-size-3 has-text-weight-bold" href="/certifications">Certifications</a>
+
 </div>
+
+<hr>
 
 <div id="home-part4" class="section">
     <h1 class="title has-text-centered is-1">Compétences</h1>
@@ -35,11 +44,12 @@
     <a class="level-item is-size-3 has-text-weight-bold" href="/competences">En savoir plus</a>
 </div>
 
+<hr>
+
 <div id="home-part5" class="section">
     <h1 class="title has-text-centered is-1">Me contacter</h1>
     <br>
     {{ partial "Accueil/contact" . }}
 </div>
 
-<script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
 {{ end }}
