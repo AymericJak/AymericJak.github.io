@@ -470,7 +470,6 @@ main {
 }
 
 .tabs-button-container {
-	/* background-color: #ccc5b9; */
 	display: flex;
 	border-bottom: 2px solid black;
 	border-top-left-radius: 8px;
@@ -521,6 +520,7 @@ main {
 
 .active-tab {
 	background: linear-gradient(0deg,#016FB9,#519acb);
+	/* 	background: linear-gradient(0deg,#064875,#519acb); */
 	color: white;
 }
 
