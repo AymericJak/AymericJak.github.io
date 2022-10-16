@@ -16,6 +16,21 @@
                 </div>
             </div>
             <hr>
+            <h3 class="is-3 has-text-centered">
+                <b>Retrouvez le projet sur : </b>
+                
+                {{if ne .Params.lienGitHub "null" }}
+                <a href="{{ .Params.lienGitHub }}" target="_blank">
+                    <i class="fab fa-github"></i> GitHub
+                </a> 
+                {{ end}}
+                
+                {{if ne .Params.lienYoutube "null" }}
+                - <a href="{{ .Params.lienYoutube }}" target="_blank">
+                    <i class="fab fa-youtube"></i> Youtube
+                </a>
+                {{ end }}
+            </h3>
         </div>
         <div class="content">
             {{.Content}}

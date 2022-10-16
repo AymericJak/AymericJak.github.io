@@ -4,6 +4,8 @@ date: 2022-05-29T19:12:00+02:00
 categories : ["Projet universitaire","Développement Web"]
 image : "/images/projets/e-portfolio.png"
 description : "L'objectif de ce projet est de découvrir l'utilisation d'un CMS, dans notre cas, un CMS pour site statique statique : Hugo. Notre mission : réaliser notre site web personnel e-Portfolio."
+lienYoutube: "null"
+lienGitHub: "https://github.com/AymericJak/AymericJak.github.io"
 draft: false
 ---
 

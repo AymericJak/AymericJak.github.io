@@ -4,6 +4,8 @@ date: 2022-05-29T19:12:00+02:00
 categories : ["Projet universitaire","Gestion de projet", "JAVA"]
 image : "/images/projets/appli_Gestion_Vente.png"
 description : "L'objectif général est la réalisation d'une application développée en Java afin de permettre à une entreprise de ventes d'automatiser la gestion de ses commandes."
+lienYoutube: "null"
+lienGitHub: "https://github.com/AymericJak/UnivProject-ApplicationGestionVentes"
 draft: false
 ---
 
