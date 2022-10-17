@@ -49,6 +49,7 @@ body {
 #home-part1 {
 	min-height: calc(100vh - 63px) !important;
 	width: 100vw;
+	margin: 0;
 }
 
 .name-homepage{
@@ -282,7 +283,6 @@ time {
 .java {width: 60%;} 
 .python {width: 55%;}
 
-.git {width: 30%;} 
 
 
 
