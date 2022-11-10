@@ -6,6 +6,6 @@ image : "/images/projets/fractalVignette.png"
 description : ""
 lienYoutube: "null"
 lienGitHub: "https://github.com/AymericJak/UnivProject-fractalGenerationApp"
-draft: false
+draft: true
 ---
 
