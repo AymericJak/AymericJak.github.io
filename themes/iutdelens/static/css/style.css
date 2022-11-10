@@ -556,3 +556,7 @@ main {
 .tag.is-link.is-light {
 	background-color: #d6dbf4 !important;
 }
+
+.contenuProjet > p {
+	text-align: justify;
+}
