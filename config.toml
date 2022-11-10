@@ -41,3 +41,7 @@ paginate = 5
 [[menu.footer]]
     name = "Compétences"
     url = "/competences"
+
+[[menu.footer]]
+    name = "Certifications"
+    url = "/certifications"
