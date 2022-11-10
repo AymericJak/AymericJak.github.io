@@ -26,6 +26,15 @@ html, .navbar {
 	transition: all 0.25s;
 }
 
+.navbar-menu.is-active {
+	border-top: solid 2px black;
+	background-color: transparent;
+}
+
+div.navbar-menu > div.navbar-end > a:last-child {
+	padding-right: 24px;
+}
+
 hr {
 	background-color: #ccc5b9;
 }
@@ -277,7 +286,7 @@ time {
 .html {width: 85%;} 
 .css {width: 78%;} 
 
-.sql {width: 70%;} 
+.sqlite {width: 50%;} 
 .postgres {width: 70%;} 
 
 .java {width: 60%;} 
