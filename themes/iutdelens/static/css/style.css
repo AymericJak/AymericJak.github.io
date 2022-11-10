@@ -552,3 +552,7 @@ main {
 .box {
 	background-color: #f4f2eb;
 }
+
+.tag.is-link.is-light {
+	background-color: #d6dbf4 !important;
+}

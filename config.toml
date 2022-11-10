@@ -2,7 +2,7 @@ baseURL = '/'
 languageCode = 'fr-fr'
 title = 'Portfolio'
 theme = 'iutdelens'
-paginate = 5
+paginate = 4
 
 [params]
     author = "JAKOBOWSKI Aymeric"
