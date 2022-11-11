@@ -1,0 +1,40 @@
+{{ define "main" }}
+<div class="container">
+    <div class="section">
+        <div class="content">
+            <h1 class="title has-text-centered is-1">{{.Title}}</h1>
+            <hr>
+            <div class="columns is-vcentered">
+                <div class="column">
+                    <figure class="image is-5by3">
+                        <img src="{{.Params.image}}">
+                    </figure>
+                </div>
+                
+                <div class="column">
+                    {{partial "widgets/english/CI_Projet.en" .}}
+                </div>
+            </div>
+            <h3 class="is-3 has-text-centered">
+                <b>Find the project on : </b>
+                
+                {{if ne .Params.lienGitHub "null" }}
+                <a href="{{ .Params.lienGitHub }}" target="_blank">
+                    <i class="fab fa-github"></i> GitHub
+                </a> 
+                {{ end}}
+                
+                {{if ne .Params.lienYoutube "null" }}
+                - <a href="{{ .Params.lienYoutube }}" target="_blank">
+                    <i class="fab fa-youtube"></i> Youtube
+                </a>
+                {{ end }}
+            </h3>
+            <hr>
+            <div class="contenuProjet">
+                {{.Content}}
+            </div>
+        </div>
+    </div>
+</div>
+{{ end }}

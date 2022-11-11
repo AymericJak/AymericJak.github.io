@@ -1,0 +1,13 @@
+<div class="box">
+    <p class="has-text-justified"><b>Date : </b>{{ .Params.Date | time.Format ":date_full"  }}</p>
+    <p class="has-text-justified">
+        <b>Reading time : </b>{{ .ReadingTime }} {{ if eq .ReadingTime 1 }} Minute {{ else }} Minutes {{ end }}
+    </p>
+    <hr class="ligne">
+    <p class="has-text-justified">
+        <b>Description : </b> {{.Params.description}}
+    </p>
+    <hr class="ligne">
+    <p><b>Project categories : </b></p>
+    {{ partial "widgets/categoriesTags" . }}
+</div>
