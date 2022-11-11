@@ -1,5 +1,5 @@
 ---
-title: "Projet fractales"
+title: "Fractal project"
 date: 2022-10-30T17:22:00+02:00
 categories : ["Projet universitaire", "JAVA"]
 image : "/images/projets/fractalVignette.png"
