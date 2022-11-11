@@ -14,12 +14,12 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
         with:
           submodules: recursive
       - uses: benmatselby/hugo-deploy-gh-pages@master
         env:
-          HUGO_VERSION: 0.99.0
+          HUGO_VERSION: 0.101.0
           HUGO_EXTENDED: true
           TARGET_REPO: AymericJak/AymericJak.github.io
           TARGET_BRANCH: gh-pages
