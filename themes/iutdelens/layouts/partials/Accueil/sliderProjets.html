@@ -2,9 +2,11 @@
     <div class="slides">
         {{ range (where .Site.RegularPages "Type" "projets" | first 3) }}
         <div class="slide is-5by3">
-            <figure class="is-5by3">
-                <img class="image_accueil" src="{{.Params.image}}" alt="">
-            </figure>
+            <a href="{{.Permalink}}">
+                <figure class="is-5by3">
+                    <img class="image_accueil" src="{{.Params.image}}" alt="">
+                </figure>
+            </a>
             <h3 class="subtitle has-text-centered {{ if gt (len .Title) 20 }} is-size-7-mobile {{ end }}"><a href="{{.Permalink}}">{{.Title}}</a></h3>
             <h3 class="has-text-centered is-4">{{ partial "widgets/categoriesTags" . }}</h3>
         </div>
