@@ -3,45 +3,91 @@ languageCode = 'fr-fr'
 title = 'Portfolio'
 theme = 'iutdelens'
 paginate = 4
+defaultContentLanguage = 'fr'
 
 [params]
     author = "JAKOBOWSKI Aymeric"
     authorImage = "/images/parametres/photoProfil.svg"
 
-[[menu.main]]
+[languages]
+    [languages.fr]
+        contentDir = "content/french"
+        title = "Portfolio"
+        languageName = "Français"
+        flagImage = "/images/parametres/frenchFlag.png"
+        weight = 1
+
+        [languages.fr.menu]
+[[languages.fr.menu.main]]
     name = "Projets"
     url = "/projets"
-
-[[menu.main]]
+[[languages.fr.menu.main]]
     name = "Catégories"
     url = "/categories"
-
-[[menu.main]]
+[[languages.fr.menu.main]]
     name = "Compétences"
     url = "/competences"
 
-[[menu.social]]
+[[languages.fr.menu.social]]
     name = "GitHub"
     url = "https://github.com/AymericJak"
     pre = "<i class='fab fa-github'></i>"
-
-[[menu.social]]
-    name = "Linkedin"
+[[languages.fr.menu.social]]
+    name = "Linkedin-fr"
     url = "https://www.linkedin.com/in/aymeric-jakobowski"
     pre = "<i class='fab fa-linkedin'></i>"
 
-[[menu.footer]]
+[[languages.fr.menu.footer]]
     name = "Projets"
     url = "/projets"
-
-[[menu.footer]]
+[[languages.fr.menu.footer]]
     name = "Catégories"
     url = "/categories"
-
-[[menu.footer]]
+[[languages.fr.menu.footer]]
     name = "Compétences"
     url = "/competences"
+[[languages.fr.menu.footer]]
+    name = "Certifications"
+    url = "/certifications"
 
-[[menu.footer]]
+
+
+    [languages.en]
+        contentDir = "content/english"
+        title = "Portfolio"
+        languageName = "English"
+        flagImage = "/images/parametres/englishFlag.png"
+        weight = 2
+        
+        [languages.en.menu]
+[[languages.en.menu.main]]
+    name = "Projects"
+    url = "/projets"
+[[languages.en.menu.main]]
+    name = "Categories"
+    url = "/categories"
+[[languages.en.menu.main]]
+    name = "Skills"
+    url = "/skills.en"
+
+[[languages.en.menu.social]]
+    name = "GitHub"
+    url = "https://github.com/AymericJak"
+    pre = "<i class='fab fa-github'></i>"
+[[languages.en.menu.social]]
+    name = "Linkedin-en"
+    url = "https://www.linkedin.com/in/aymeric-jakobowski/?locale=en_US"
+    pre = "<i class='fab fa-linkedin'></i>"
+
+[[languages.en.menu.footer]]
+    name = "Projects"
+    url = "/projets"
+[[languages.en.menu.footer]]
+    name = "Categories"
+    url = "/categories"
+[[languages.en.menu.footer]]
+    name = "Skills"
+    url = "/skills.en"
+[[languages.en.menu.footer]]
     name = "Certifications"
     url = "/certifications"

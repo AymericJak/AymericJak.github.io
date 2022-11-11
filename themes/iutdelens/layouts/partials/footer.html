@@ -7,6 +7,18 @@
             </div>
             {{ end }}
         </div>
+        
+        <div class="columns has-text-centered">
+            {{ range $.Site.Home.AllTranslations }}
+            <div class="column is-narrow">
+                <a href="{{ .Permalink }}" title="{{ .Name }}">
+                    {{ .Language.LanguageName }}
+                </a>
+            </div>
+            {{ end }}
+        </div>
+        
+        {{ if eq .Language.LanguageName "Français" }}
         <div class="columns has-text-centered">
             <div class="column is-narrow">
                 <a class="js-modal-trigger" data-target="mon-cv">
@@ -14,12 +26,26 @@
                 </a>
             </div>
         </div>
-
+        
         <div class="has-text-centered">
             <p>Copyright © 2022 | Tous droits réservés</p>
             <p>Site hébergé sur GitHub</p>
         </div>
+        {{ else }}
+        <div class="columns has-text-centered">
+            <div class="column is-narrow">
+                <a class="js-modal-trigger" data-target="mon-cv">
+                    My resume
+                </a>
+            </div>
+        </div>
         
+        <div class="has-text-centered">
+            <p>Copyright © 2022 | All rights reserved</p>
+            <p>Site hosted on GitHub</p>
+        </div>
+        {{ end }}
+
         <div id="mon-cv" class="modal">
             <div class="modal-background"></div>
             

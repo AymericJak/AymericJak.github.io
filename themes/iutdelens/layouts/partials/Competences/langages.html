@@ -41,7 +41,7 @@
     </div>
     <div class="tile is-vertical is-parent">
         <div class="tile is-child box">
-            <h3 class="title is-3">Données</h3>
+            <h3 class="title is-3">{{ if eq .Language.LanguageName "Français" }}Données{{else}}Data{{end}}</h3>
             
             <div class="skill-box skills-box-compPage">
                 <div class="skills postgres">SQL | PostgreSQL - 70%</div>
@@ -53,7 +53,7 @@
             
         </div>
         <div class="tile is-child box">
-            <h3 class="title is-3">Langages</h3>
+            <h3 class="title is-3">{{ if eq .Language.LanguageName "Français" }}Langages{{else}}Languages{{end}}</h3>
             
             <div class="skill-box skills-box-compPage">
                 <div class="skills java">JAVA - 60%</div>

@@ -1,0 +1,56 @@
+{{ define "main" }}
+
+
+<div id="home-part1" class="section columns is-desktop">
+    <div id="home-name" class="column is-three-fifths-desktop">
+        <h1 class="title has-text-centered name-homepage">JAKOBOWSKI</h1>
+        <h2 class="title has-text-centered name-homepage">Aymeric</h2>
+        <h2 class="subtitle has-text-centered status">IT Student</h2>
+    </div>
+    <div id="home-flex" class="column">
+        <a class="linkButtons" href="#home-part2"><button class="allButtons animHoverbutton">Projects</button></a>
+        <a class="linkButtons" href="#home-part3"><button class="allButtons animHoverbutton">Studies</button></a>
+        <a class="linkButtons" href="#home-part4"><button class="allButtons animHoverbutton">Skills</button></a>
+        <a class="linkButtons" href="#home-part5"><button class="allButtons animHoverbutton">Read more</button></a>
+    </div>
+</div>
+
+<hr>
+
+<div id="home-part2" class="section">
+    <h2 class="title has-text-centered is-1">Recent projects</h2>
+    <br>
+    {{ partial "Accueil/sliderProjets" . }}
+    <br>
+    <a class="level-item is-size-3 has-text-weight-bold" href="/en/projects">More projects</a>
+</div>
+
+<hr>
+
+<div id="home-part3" class="section">
+    <h2 class="title has-text-centered is-1">Studies</h2>
+    <br>
+    {{ partial "Accueil/english/parcours.en" . }}
+    <a class="level-item is-size-3 has-text-weight-bold" href="/en/certifications.en">Certifications</a>
+
+</div>
+
+<hr>
+
+<div id="home-part4" class="section">
+    <h2 class="title has-text-centered is-1">Skills</h2>
+    {{ partial "Accueil/competencesResume" . }}
+    <br>
+    <a class="level-item is-size-3 has-text-weight-bold" href="/en/skills.en">Read more</a>
+</div>
+
+<hr>
+
+<div id="home-part5" class="section">
+    <h2 class="title has-text-centered is-1">Read more</h2>
+    <br>
+    {{ partial "Accueil/english/savoirPlus.en" . }}
+</div>
+
+
+{{ end }}

@@ -1,9 +1,13 @@
 {{ define "main" }}
 <div class="container">
     <div class="section">
+        {{ if eq .Language.LanguageName "Français" }}
         <a href="/categories/">Liste des catégories</a>
+        {{ else }}
+        <a href="/en/categories/">List of categories</a>
+        {{end}}
         <div class="content">
-            <h1>Catégorie : {{ .Title }}</h1>
+            <h1 class="title">{{ if eq .Language.LanguageName "Français" }}Catégorie : {{ .Title }}{{ else }}Categorie : {{ .Title }}{{end}}</h1>
             {{ .Content }}
         </div>
         <div class="columns is-multiline">

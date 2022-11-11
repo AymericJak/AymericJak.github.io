@@ -1,0 +1,68 @@
+<div class="has-text-centered">
+    <p id="mail"><i class='fas fa-envelope-open'></i> aymericjakpro@gmail.com</p>
+    <button id="copyMailButton" class="button" onclick="copyObject('copyMailButton', 'mail')">Copy</button>
+    <a href="mailto:aymericjakpro@gmail.com"><button id="sendMail" class="button">Send a mail</button></a>
+</div>
+<br>
+<div class="has-text-centered">
+    <p id="phoneNumber"><i class='fas fa-mobile-alt'></i> 07 82 95 87 24</p>
+    <button id="copyPhoneButton" class="button" onclick="copyObject('copyPhoneButton', 'phoneNumber')">Copy</button>
+</div>
+<br>
+<div class="has-text-centered">
+    <p><i class="fas fa-file"></i> My resume</p>
+    <button class="button js-modal-trigger" data-target="mon-cv">Open</button>
+</div>
+
+<br>
+<nav class="level">
+    <div class="level-item has-text-centered">
+        <div>
+            <a class="title is-5" href="https://www.codewars.com/users/AymericJak" target="_blank">
+            <figure class="image is-128x128">
+                <img src="/images/a-propos-de/codeWars.png" alt="">
+            </figure>
+            CodeWars</a>
+        </div>
+    </div>
+    <div class="level-item has-text-centered">
+        <div>
+            <a class="title is-5" href="https://www.codingame.com/profile/1d7ec5af38a00e3eca8e4c28296d906d5834374" target="_blank">
+            <figure class="image is-128x128">
+                <img src="/images/a-propos-de/codinGame.svg" alt="">
+            </figure>
+            CodinGame</a>
+        </div>
+    </div>
+    <div class="level-item has-text-centered">
+        <div>
+            <a class="title is-5" href="https://github.com/AymericJak" target="_blank">
+            <figure class="image is-128x128">
+                <img src="/images/competences/IDE/GitHub_icon.png" alt="">
+            </figure>
+            GitHub</a>
+        </div>
+    </div>
+    <div class="level-item has-text-centered">
+        <div>
+            <a class="title is-5" href="https://www.linkedin.com/in/aymeric-jakobowski/?locale=en_US" target="_blank">
+            <figure class="image is-128x128">
+                <img src="/images/a-propos-de/linkedIn.png" alt="">
+            </figure>
+            LinkedIn</a>
+        </div>
+    </div>
+</nav>
+
+<script>
+    function copyObject(idButtonString, idTextString) {
+        let elemButton = document.getElementById(idButtonString);
+        let elemText = document.getElementById(idTextString).textContent.toLowerCase();
+        
+        navigator.clipboard.writeText(elemText);
+        elemButton.innerHTML = 'Copié !';
+        setTimeout(() => {
+            elemButton.innerHTML = 'Copier';
+        }, 1400);
+    }
+</script>
