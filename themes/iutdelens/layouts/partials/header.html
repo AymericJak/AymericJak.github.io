@@ -14,11 +14,6 @@
                 </a>
                 {{ end }}
                 
-                {{ range $.Site.Home.AllTranslations }}
-                <a href="{{ .RelPermalink }}" class="navbar-item is-hidden-desktop" title="{{ .Name }}">
-                    {{ .Language.LanguageName }}
-                </a>
-                {{ end }}
                 <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
                     <span aria-hidden="true"></span>
                     <span aria-hidden="true"></span>
@@ -38,9 +33,9 @@
                         <span class="icon">{{ .Pre }}</span>
                     </a>
                     {{ end }}
-                    
+                    <hr class="is-hidden-desktop burgerMenuHR">
                     {{ range $.Site.Home.AllTranslations }}
-                    <a href="{{ .RelPermalink }}" class="navbar-item is-hidden-touch" title="{{ .Name }}">
+                    <a href="{{ .RelPermalink }}" class="navbar-item" title="{{ .Name }}">
                         {{ .Language.LanguageName }}
                     </a>
                     {{ end }}

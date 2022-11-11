@@ -560,3 +560,14 @@ main {
 .contenuProjet > p {
 	text-align: justify;
 }
+
+.burgerMenuHR {
+	margin-left: auto;
+	margin-right: auto;
+	width: 15vw;
+	background-color: black;
+}
+
+div.navbar-menu.is-active a {
+	text-align: center;
+}
