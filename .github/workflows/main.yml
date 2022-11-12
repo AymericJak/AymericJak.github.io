@@ -16,7 +16,8 @@ jobs:
     steps:
       - uses: actions/checkout@v3
         with:
-          submodules: recursive
+          submodules: true  # Fetch Hugo themes (true OR recursive)
+          fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
       - uses: benmatselby/hugo-deploy-gh-pages@master
         env:
           HUGO_VERSION: 0.101.0
