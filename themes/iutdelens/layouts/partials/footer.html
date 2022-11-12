@@ -3,7 +3,7 @@
         <div class="columns has-text-centered">
             {{ range .Site.Menus.footer }}
             <div class="column is-narrow">
-                <a href="/{{ .URL | absLangURL }}" class="">{{ .Name }}</a>
+                <a href="{{ .URL | absLangURL }}" class="">{{ .Name }}</a>
             </div>
             {{ end }}
         </div>
@@ -45,7 +45,7 @@
             <p>Site hosted on GitHub</p>
         </div>
         {{ end }}
-
+        
         <div id="mon-cv" class="modal">
             <div class="modal-background"></div>
             
