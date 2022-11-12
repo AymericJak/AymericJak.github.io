@@ -62,13 +62,13 @@ defaultContentLanguage = 'fr'
         [languages.en.menu]
 [[languages.en.menu.main]]
     name = "Projects"
-    url = "/projets"
+    url = "/projets/"
 [[languages.en.menu.main]]
     name = "Categories"
     url = "/categories"
 [[languages.en.menu.main]]
     name = "Skills"
-    url = "/skills.en"
+    url = "/skills-en"
 
 [[languages.en.menu.social]]
     name = "GitHub"
@@ -87,7 +87,7 @@ defaultContentLanguage = 'fr'
     url = "/categories"
 [[languages.en.menu.footer]]
     name = "Skills"
-    url = "/skills.en"
+    url = "/skills-en"
 [[languages.en.menu.footer]]
     name = "Certifications"
-    url = "/certifications"
+    url = "/certifications-en"
