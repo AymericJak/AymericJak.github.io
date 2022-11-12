@@ -35,7 +35,7 @@
                     {{ end }}
                     <hr class="is-hidden-desktop burgerMenuHR">
                     {{ range $.Site.Home.AllTranslations }}
-                    <a href="{{ .RelPermalink }}" class="navbar-item" title="{{ .Name }}">
+                    <a href="{{ .Permalink }}" class="navbar-item" title="{{ .Name }}">
                         {{ .Language.LanguageName }}
                     </a>
                     {{ end }}
