@@ -4,7 +4,6 @@ title = 'Portfolio'
 theme = 'iutdelens'
 paginate = 4
 defaultContentLanguage = 'fr'
-disableLanguages = ['en']
 
 [params]
     author = "JAKOBOWSKI Aymeric"
@@ -63,13 +62,13 @@ disableLanguages = ['en']
         [languages.en.menu]
 [[languages.en.menu.main]]
     name = "Projects"
-    url = "/projets/"
+    url = "/en/projets/"
 [[languages.en.menu.main]]
     name = "Categories"
-    url = "/categories"
+    url = "/en/categories"
 [[languages.en.menu.main]]
     name = "Skills"
-    url = "/skills-en"
+    url = "/en/skills-en"
 
 [[languages.en.menu.social]]
     name = "GitHub"
@@ -82,13 +81,13 @@ disableLanguages = ['en']
 
 [[languages.en.menu.footer]]
     name = "Projects"
-    url = "/projets"
+    url = "/en/projets"
 [[languages.en.menu.footer]]
     name = "Categories"
-    url = "/categories"
+    url = "/en/categories"
 [[languages.en.menu.footer]]
     name = "Skills"
-    url = "/skills-en"
+    url = "/en/skills-en"
 [[languages.en.menu.footer]]
     name = "Certifications"
-    url = "/certifications-en"
+    url = "/en/certifications-en"
