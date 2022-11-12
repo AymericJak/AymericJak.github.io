@@ -4,7 +4,6 @@ title = 'Portfolio'
 theme = 'iutdelens'
 paginate = 4
 defaultContentLanguage = 'fr'
-disableLanguages = ['en']
 
 [params]
     author = "JAKOBOWSKI Aymeric"
