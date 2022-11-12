@@ -1,5 +1,5 @@
 ---
 title: "My skills : "
 layout: "skills-en"
-url: "/skills-en"
+url: "/en/skills-en"
 ---
