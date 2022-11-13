@@ -81,7 +81,7 @@ defaultContentLanguage = 'fr'
     pre = "<i class='fab fa-github'></i>"
 [[languages.en.menu.social]]
     name = "Linkedin-en"
-    url = "https://www.linkedin.com/in/aymeric-jakobowski/?locale=en_US"
+    url = "https://www.linkedin.com/in/aymeric-jakobowski/en"
     pre = "<i class='fab fa-linkedin'></i>"
 
 [[languages.en.menu.footer]]

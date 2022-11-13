@@ -31,9 +31,6 @@ html, .navbar {
 	background-color: transparent;
 }
 
-div.navbar-menu > div.navbar-end > a:last-child {
-	padding-right: 24px;
-}
 
 hr {
 	background-color: #ccc5b9;
@@ -148,6 +145,12 @@ body {
 	}
 	#home-flex{
 		min-height: calc(100vh - 63px - 43vh);
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	div.navbar-menu > div.navbar-end > a:last-child {
+		padding-right: 24px;
 	}
 }
 
