@@ -5,6 +5,11 @@ theme = 'iutdelens'
 paginate = 4
 defaultContentLanguage = 'fr'
 
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
 [params]
     author = "JAKOBOWSKI Aymeric"
     authorImage = "/images/parametres/photoProfil.svg"
