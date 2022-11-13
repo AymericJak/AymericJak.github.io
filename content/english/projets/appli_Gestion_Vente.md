@@ -1,7 +1,7 @@
 ---
 title: "Sales Management Application"
 date: 2022-06-17T19:12:00+02:00
-categories : ["Projet universitaire", "JAVA"]
+categories : ["University project", "JAVA"]
 image : "/images/projets/gestionVentesVignette.png"
 description : "The purpose of the project is to develop an application in Java to allow a sales company to automate the management of its orders."
 lienYoutube: "null"

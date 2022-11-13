@@ -1,7 +1,7 @@
 ---
 title: "Fractal project"
 date: 2022-10-30T17:22:00+02:00
-categories : ["Projet universitaire", "JAVA"]
+categories : ["University project", "JAVA"]
 image : "/images/projets/projetFractales/fractalVignette.png"
 description : "Our team has been chosen by a partner high school to develop a software library in order to show mathematical properties to its students in a playful way. More precisely, this library must be able to generate images representing different fractals."
 lienYoutube: "null"

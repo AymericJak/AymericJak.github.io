@@ -1,7 +1,7 @@
 ---
 title: "e-portfolio website"
 date: 2022-05-29T19:12:00+02:00
-categories : ["Projet universitaire","Développement Web"]
+categories : ["University project","Web development"]
 image : "/images/projets/ePortfolioVignette.png"
 description : "The objective of this project is to discover the use of a CMS, in our case, a CMS for static website: Hugo. Our mission: to create our personal e-Portfolio website."
 lienYoutube: "null"

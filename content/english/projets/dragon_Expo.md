@@ -1,7 +1,7 @@
 ---
 title: "Dragon Expo"
 date: 2022-01-16T19:00:00+02:00
-categories : ["Projet universitaire", "Développement web"]
+categories : ["University project", "Web development"]
 image : "/images/projets/dragon_Expo.png"
 description : "We' re specialised in event management. To avoid having too much competition, we have to specialise in a particular field. Creation of identification sheets, personas, website, etc."
 lienYoutube: "null"
