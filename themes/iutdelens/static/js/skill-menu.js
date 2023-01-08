@@ -19,7 +19,6 @@ tabs.forEach(tab => {
         }
 
         numTabAct = tab.getAttribute('data-content');
-        console.log(numTabAct);
         contents[numTabAct-1].classList.add('active-content');
 
 
