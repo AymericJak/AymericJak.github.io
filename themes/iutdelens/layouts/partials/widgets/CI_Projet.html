@@ -1,5 +1,5 @@
 <div class="box">
-    <p class="has-text-justified"><b>Date : </b>{{ .PublishDate.Format "2 January, 2006" }}</p>
+    <p class="has-text-justified"><b>Date : </b>{{ .PublishDate.Format "02/01/2006" }}</p>
     <p class="has-text-justified">
         <b>Temps de lecture : </b>{{ .ReadingTime }} {{ if eq .ReadingTime 1 }} Minute {{ else }} Minutes {{ end }}
     </p>
