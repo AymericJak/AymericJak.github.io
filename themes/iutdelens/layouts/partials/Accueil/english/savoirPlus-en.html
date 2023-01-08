@@ -1,20 +1,32 @@
-<div class="has-text-centered">
-    <p id="mail"><i class='fas fa-envelope-open'></i> aymericjakpro@gmail.com</p>
-    <button id="copyMailButton" class="button" onclick="copyObject('copyMailButton', 'mail')">Copy</button>
-    <a href="mailto:aymericjakpro@gmail.com"><button id="sendMail" class="button">Send a mail</button></a>
-</div>
-<br>
-<div class="has-text-centered">
-    <p id="phoneNumber"><i class='fas fa-mobile-alt'></i> 07 82 95 87 24</p>
-    <button id="copyPhoneButton" class="button" onclick="copyObject('copyPhoneButton', 'phoneNumber')">Copy</button>
-</div>
-<br>
-<div class="has-text-centered">
-    <p><i class="fas fa-file"></i> My resume (french)</p>
-    <button class="button js-modal-trigger" data-target="mon-cv">Open</button>
+<div class="columns is-vcentered is-multiline" style="gap: 2rem; margin-bottom: 5rem;">
+    <div class="column is-fill box has-text-centered column-savoir-plus">
+        <p id="mail" class="is-size-5">
+            <i class='fas fa-envelope-open'></i> aymericjakpro@gmail.com
+        </p>
+        <br>
+        <button id="copyMailButton" class="button is-info" onclick="copyObject('copyMailButton', 'mail')">Copy</button>
+        <a href="mailto:aymericjakpro@gmail.com">
+            <button id="sendMail" class="button is-info">Send a mail</button>
+        </a>
+    </div>
+    
+    <div class="column is-fill box has-text-centered column-savoir-plus">
+        <p id="phoneNumber" class="is-size-5">
+            <i class='fas fa-mobile-alt'></i> 07 82 95 87 24
+        </p>
+        <br>
+        <button id="copyPhoneButton" class="button is-info" onclick="copyObject('copyPhoneButton', 'phoneNumber')">Copy</button>
+    </div>
+    
+    <div class="column is-fill box has-text-centered column-savoir-plus">
+        <p class="is-size-5">
+            <i class="fas fa-file"></i> My resume (French)
+        </p>
+        <br>
+        <button class="button js-modal-trigger is-info" data-target="mon-cv">Open</button>
+    </div>
 </div>
 
-<br>
 <nav class="level">
     <div class="level-item has-text-centered">
         <div>

@@ -5,7 +5,7 @@
 }
 html {
 	scroll-behavior: smooth;
-    overflow-x: hidden;
+	overflow-x: hidden;
 }
 
 html, .navbar {
@@ -573,4 +573,11 @@ main {
 
 div.navbar-menu.is-active a {
 	text-align: center;
+}
+
+
+@media screen and (min-width: 769px) {
+	.column-savoir-plus {
+		margin-bottom: 0 !important;
+	}
 }
