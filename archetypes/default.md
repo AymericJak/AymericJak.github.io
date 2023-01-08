@@ -2,7 +2,7 @@
 title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
 categories : []
-image : "/images/projets/ePortfolioVignette.png"
+image : "/images/projets/enCoursVignette.png"
 description : ""
 lienYoutube: "null"
 lienGitHub: "null"
