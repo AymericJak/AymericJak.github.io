@@ -45,6 +45,6 @@ Bien entendu, une branche "48h" sera créée afin de garder une trace de notre p
 
 ### V/ En savoir plus sur "La Toile"
 
-Vous pouvez en savoir plus sur ce projet en lisant notre article LinkedIn, publié ici : <a href="https://www.linkedin.com/post/7017520799322365952/">Découvrez notre exposition d'art numérique 100% française : "La Toile​"</a>.
+Vous pouvez en savoir plus sur ce projet en lisant notre article LinkedIn, publié ici : <a href="https://www.linkedin.com/pulse/d%25C3%25A9couvrez-notre-exposition-dart-num%25C3%25A9rique-100-la-toile-jakobowski">Découvrez notre exposition d'art numérique 100% française : "La Toile​"</a>.
 
 Nous espérons que vous apprécierez la visite de "La Toile" et n'hésitez pas à nous faire part de vos commentaires.

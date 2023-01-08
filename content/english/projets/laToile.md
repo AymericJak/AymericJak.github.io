@@ -45,6 +45,6 @@ Of course, a "48h" branch will be created to keep track of our performance.
 
 ### V/ More about "La Toile"
 
-You can read more about this project in our LinkedIn article (French), published here: <a href="https://www.linkedin.com/post/7017520799322365952/">Découvrez notre exposition d'art numérique 100% française : "La Toile​"</a>.
+You can read more about this project in our LinkedIn article (French), published here: <a href="https://www.linkedin.com/pulse/d%25C3%25A9couvrez-notre-exposition-dart-num%25C3%25A9rique-100-la-toile-jakobowski">Découvrez notre exposition d'art numérique 100% française : "La Toile​"</a>.
 
 We hope you enjoy your visit to " La Toile " and please feel free to send us your comments.
