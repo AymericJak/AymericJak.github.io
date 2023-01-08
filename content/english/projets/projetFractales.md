@@ -76,7 +76,7 @@ Ou encore le triangle de Sierpiński :
 
 ![Triangle de Sierpiński](/images/projets/projetFractales/triangleDeSierpinski.jpg)
 
-### VII/ Bilan critique {class="has-text-danger-dark"}
+### VII/ Critical review {class="has-text-danger-dark"}
 
 Ce projet nous a permis d'appliquer les différents patrons de conception appris lors de ce semestre (S3) en cours de __qualité développement__.
 En voici une liste :

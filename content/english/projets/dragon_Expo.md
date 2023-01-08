@@ -38,7 +38,7 @@ In order to prepare our commercial policy and strategy, a study of the competiti
 - A comparative table of our main competitors
 - A SWOT matrix of our project
 
-### V/ Bilan critique {class="has-text-danger-dark"}
+### V/ Critical review {class="has-text-danger-dark"}
 
 Un an après ce projet, plusieurs critiques peuvent être formulées. Tout d'abord, l'architecture du projet aurait pu être plus adaptée. En effet, à partir de la racine, un projet source `src/` aurait pu être créé. Les noms des dossiers sont plus cohérents. Les noms des images sans caractères spéciaux. L'utilisation de la camelCase.
 
