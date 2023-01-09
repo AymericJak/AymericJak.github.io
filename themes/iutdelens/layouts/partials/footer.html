@@ -35,7 +35,7 @@
         <div class="columns has-text-centered">
             <div class="column is-narrow">
                 <a class="js-modal-trigger" data-target="mon-cv">
-                    My resume (french)
+                    My resume
                 </a>
             </div>
         </div>
@@ -46,6 +46,7 @@
         </div>
         {{ end }}
         
+        {{ if eq .Language.LanguageName "Français" }}
         <div id="mon-cv" class="modal">
             <div class="modal-background"></div>
             
@@ -63,6 +64,25 @@
                 </button>
             </a>
         </div>
+        {{ else }}
+        <div id="mon-cv" class="modal">
+            <div class="modal-background"></div>
+            
+            <div class="modal-content">
+                <p class="image">
+                    <img src="/images/a-propos-de/Resume-JAKOBOWSKI-Aymeric.svg" alt="CV">
+                </p>
+            </div>
+            <button class="modal-close is-large" aria-label="close"></button>
+            
+            
+            <a class="has-text-white" href="/Resume-JAKOBOWSKI-Aymeric.pdf" download="Resume_JAKOBOWSKI_Aymeric.pdf">
+                <button class="modal-content button is-link">
+                    Download in .pdf format
+                </button>
+            </a>
+        </div>
+        {{ end }}
     </div>
 </footer>
 <script src="{{"js/modal.js" | relURL}}"></script>
