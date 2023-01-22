@@ -282,9 +282,10 @@ time {
 	font-weight: bolder;
 }
 
-.php {width: 50%;} 
+.php {width: 65%;} 
 .js {width: 35%;} 
-.laravel {width: 50%;} 
+.laravel {width: 65%;} 
+.symmfony {width: 45%;} 
 .flask {width: 60%;} 
 .hugo {width: 70%;} 
 .html {width: 85%;} 
