@@ -2,20 +2,21 @@
 <div class="container">
     <div class="section">
         <div class="content">
-            <h1 class="title">{{ if eq .Language.LanguageName "Français" }}{{ .Title }}{{ else }}{{ .Params.englishTitle }}{{end}}</h1>
+            <h1 class="title">{{ if eq .Language.LanguageName "Français" }}{{ .Title }}{{ else }}{{ .Params.englishTitle
+                }}{{end}}</h1>
             {{ .Content }}
         </div>
-        <div class="columns is-mobile is-multiline">
-            {{ range .Data.Terms.ByCount }}
+        {{ $taxo := "categories" }}
+        {{ with ($.Site.GetPage (printf "/%s" $taxo)) }}
+
+        <div class="columns is-mobile is-multiline is-vcentered is-centered">
+            {{ range (where .Pages "Params.rangeHaut" true) }}
             <div class="column is-half-mobile is-one-third-tablet is-one-quarter-desktop is-one-fifth-widescreen">
                 <div class="card">
                     <div class="card-image">
                         <a href="{{ .Page.Permalink }}">
                             <figure class="image is-3by2">
-                                {{ $firstChild := index .Pages 0 }}
-                                {{ with $firstChild.Params.image }}
-                                <img src="{{ index . }}" alt="">
-                                {{ end }}
+                                <img src="{{ .Page.Params.logo }}" alt="">
                             </figure>
                         </a>
                     </div>
@@ -30,6 +31,32 @@
             </div>
             {{ end }}
         </div>
+
+        <hr>
+
+        <div class="columns is-mobile is-multiline is-vcentered">
+            {{ range (where .Pages "Params.rangeBas" true) }}
+            <div class="column is-half-mobile is-one-third-tablet is-one-quarter-desktop is-one-fifth-widescreen">
+                <div class="card">
+                    <div class="card-image">
+                        <a href="{{ .Page.Permalink }}">
+                            <figure class="image is-3by2">
+                                <img src="{{ .Page.Params.logo }}" alt="">
+                            </figure>
+                        </a>
+                    </div>
+                    <div class="card-content has-text-centered">
+                        <div>
+                            <a class="title is-5 is-size-6-mobile" href="{{ .Page.Permalink }}">{{ .Page.Title }}</a>
+                            {{ $pageCount := len .Pages }}
+                            <p>{{ $pageCount }} projet{{ if ne $pageCount 1 }}s{{ end }} </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {{ end }}
+        </div>
+        {{ end }}
     </div>
 </div>
 {{ end }}
