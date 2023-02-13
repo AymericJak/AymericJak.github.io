@@ -377,7 +377,7 @@ main {
 
 
 
-@media screen and ((min-width: 501px) and (max-width: 835px)) {
+@media screen and (min-width: 501px) and (max-width: 835px) {
 	
 	.image_accueil {
 		width: 400px;
