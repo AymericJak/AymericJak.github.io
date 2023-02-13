@@ -1,4 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@700&display=swap');
+
+.is-family-title {
+	font-family: 'Baloo Bhaina 2', IBM Plex Sans, sans-serif;
+}
 
 *::selection{
 	background-color: #ccc5b99c;
