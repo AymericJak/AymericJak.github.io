@@ -1,6 +1,6 @@
 ---
 title: "PHP"
-logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-plain.svg'
+thumbnail: '/images/categories/Category-PHP.png'
 rangeHaut: false
 rangeBas: true
 ---

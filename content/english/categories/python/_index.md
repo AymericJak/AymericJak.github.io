@@ -1,4 +1,6 @@
 ---
 title: "Python"
-logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-plain.svg'
+thumbnail: "/images/categories/Category-Python.png"
+rangeHaut: false
+rangeBas: true
 ---

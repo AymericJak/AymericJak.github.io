@@ -1,4 +1,6 @@
 ---
-title: "University Project"
-logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/unix/unix-original.svg'
+title: "University project"
+thumbnail: '/images/categories/Category-Projet-Univ.png'
+rangeHaut: true
+rangeBas: false
 ---
