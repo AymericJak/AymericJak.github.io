@@ -66,6 +66,7 @@ body {
 	background-image: linear-gradient(90deg,#016FB9,#519acb);
 	color: transparent;
 	user-select: none;
+	padding-bottom: 5px;
 }
 
 .status{
@@ -580,4 +581,14 @@ div.navbar-menu.is-active a {
 	.column-savoir-plus {
 		margin-bottom: 0 !important;
 	}
+}
+
+.content h1 {
+	font-weight: 700;
+	background-clip: text;
+	-webkit-background-clip: text;
+	background-image: linear-gradient(90deg,#016FB9,#519acb);
+	color: transparent;
+	user-select: none;
+	padding-bottom: 5px;
 }
