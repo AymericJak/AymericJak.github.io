@@ -291,8 +291,7 @@ time {
 .html {width: 85%;} 
 .css {width: 80%;} 
 
-.sqlite {width: 50%;} 
-.postgres {width: 70%;} 
+.postgres {width: 70%;}
 
 .java {width: 60%;} 
 .python {width: 75%;}
