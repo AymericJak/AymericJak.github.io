@@ -32,6 +32,9 @@ defaultContentLanguage = 'fr'
 [[languages.fr.menu.main]]
     name = "Compétences"
     url = "/competences"
+[[languages.fr.menu.main]]
+    name = "Certifications"
+    url = "/certifications"
 
 [[languages.fr.menu.social]]
     name = "GitHub"
@@ -74,6 +77,9 @@ defaultContentLanguage = 'fr'
 [[languages.en.menu.main]]
     name = "Skills"
     url = "/en/skills-en"
+[[languages.en.menu.main]]
+    name = "Certifications"
+    url = "/en/certifications-en"
 
 [[languages.en.menu.social]]
     name = "GitHub"
