@@ -1,7 +1,7 @@
 ---
 title: "La Toile"
 date: 2023-01-08T10:22:26+01:00
-categories : [University project, Web development, PHP, Laravel]
+categories : [University project, Web, PHP, Laravel]
 image : "/images/projets/laToile/laToileVignette.png"
 description : "Our site \"La Toile\" allows visitors to browse a virtual gallery of digital images by moving from one room (represented by an underground stop) to another. Created in 48 hours in a team of 7 using HTML, CSS, JavaScript and PHP, \"La Toile\" presents a list of digital artworks in each room."
 lienYoutube: "null"

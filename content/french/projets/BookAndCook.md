@@ -1,7 +1,7 @@
 ---
 title: "Book & Cook"
 date: 2023-01-22T18:26:32+01:00
-categories : ["Projet personnel", "Développement web", "Symfony"]
+categories : ["Projet personnel", "Web", "Symfony"]
 image : "/images/projets/enCoursVignette.png"
 description : "Premier projet réalisé avec le framework Symfony : Book & Cook ! Le concept de ce site est très simple : un site e-commerce pour la vente de livres de cuisine."
 lienYoutube: "null"
