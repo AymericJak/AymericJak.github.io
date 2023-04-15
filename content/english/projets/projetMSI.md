@@ -3,7 +3,7 @@ title: "Three-tier architecture application"
 date: 2022-11-07T17:22:00+02:00
 categories : ["University project", "Web", "Python", "Flask"]
 image : "/images/projets/projetMSI/MSIThreeTierAppVignette.png"
-description : "A customer has several data centres. Due to global warming, it becomes important to optimise the air conditioning control of these data centres..."
+description : "A customer has several data centers. Due to global warming, it becomes important to optimise the air conditioning control of these data centers..."
 lienYoutube: "null"
 lienGitHub: "https://github.com/AymericJak/UnivProject-MSIThreeTierArchitectureApp"
 draft: false
