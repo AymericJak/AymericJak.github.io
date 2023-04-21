@@ -146,6 +146,9 @@ body {
     transform: scale(1.5);
 }
 
+.buttonA404 {
+    display: block;
+}
 
 @media screen and (max-width: 1023px) {
     #home-name {
