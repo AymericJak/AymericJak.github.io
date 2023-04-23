@@ -1,0 +1,12 @@
+<div class="box">
+    <div class="columns">
+        <figure class="image is-128x128">
+            <a href="{{ .Permalink }}"><img src="{{.Params.logo }}" alt="logo of the '{{ .Title }}' event"></a>
+        </figure>
+        <div class="column is-four-fifths">
+            <h4 class="title has-text is-4"><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
+            <p class="">{{ .Params.description }}</p>
+        </div>
+        <p class="column has-text-weight-bold is-size-5 has-text-centered is-1">{{ .Params.edition }}</p>
+    </div>
+</div>
