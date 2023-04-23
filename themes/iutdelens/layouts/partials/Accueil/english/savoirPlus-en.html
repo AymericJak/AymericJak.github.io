@@ -1,5 +1,61 @@
 <div class="columns is-vcentered is-multiline" style="gap: 2rem; margin-bottom: 5rem;">
     <div class="column is-fill box has-text-centered column-savoir-plus">
+        <p class="is-size-5"><i class="far fa-calendar-alt"></i> Events</p>
+        <p class="mb-5 mt-5">Discover the events in which I participated!</p>
+        <a href="/en/events">
+            <button class="button is-info">
+                Participated events
+            </button>
+        </a>
+    </div>
+</div>
+
+<nav class="level">
+    <div class="level-item has-text-centered">
+        <div>
+            <a class="title is-5" href="https://www.codewars.com/users/AymericJak" target="_blank">
+                <figure class="image is-128x128">
+                    <img src="/images/a-propos-de/codeWars.png" alt="codewars icon">
+                </figure>
+                CodeWars</a>
+        </div>
+    </div>
+    <div class="level-item has-text-centered">
+        <div>
+            <a class="title is-5" href="https://www.codingame.com/profile/1d7ec5af38a00e3eca8e4c28296d906d5834374"
+               target="_blank">
+                <figure class="image is-128x128">
+                    <img src="/images/a-propos-de/codinGame.svg" alt="codin game icon">
+                </figure>
+                CodinGame</a>
+        </div>
+    </div>
+    <div class="level-item has-text-centered">
+        <div>
+            <a class="title is-5" href="https://github.com/AymericJak" target="_blank">
+                <figure class="image is-128x128">
+                    <img src="/images/competences/IDE/github-icon.svg" alt="github icon">
+                </figure>
+                GitHub</a>
+        </div>
+    </div>
+    <div class="level-item has-text-centered">
+        <div>
+            <a class="title is-5" href="https://www.linkedin.com/in/aymeric-jakobowski/?locale=en_US" target="_blank">
+                <figure class="image is-128x128">
+                    <img src="/images/a-propos-de/linkedIn.png" alt="linkedin icon">
+                </figure>
+                LinkedIn</a>
+        </div>
+    </div>
+</nav>
+
+<hr style="width: 50%; text-align: center; margin: 2rem auto;">
+
+<h2 class="title has-text-centered is-1">Contact</h2>
+
+<div class="columns is-vcentered is-multiline" style="gap: 2rem; margin-bottom: 5rem;">
+    <div class="column is-fill box has-text-centered column-savoir-plus">
         <p id="mail" class="is-size-5">
             <i class='fas fa-envelope-open'></i> aymericjakpro@gmail.com
         </p>
@@ -9,15 +65,17 @@
             <button id="sendMail" class="button is-info">Send a mail</button>
         </a>
     </div>
-    
+
     <div class="column is-fill box has-text-centered column-savoir-plus">
         <p id="phoneNumber" class="is-size-5">
             <i class='fas fa-mobile-alt'></i> 07 82 95 87 24
         </p>
         <br>
-        <button id="copyPhoneButton" class="button is-info" onclick="copyObject('copyPhoneButton', 'phoneNumber')">Copy</button>
+        <button id="copyPhoneButton" class="button is-info" onclick="copyObject('copyPhoneButton', 'phoneNumber')">
+            Copy
+        </button>
     </div>
-    
+
     <div class="column is-fill box has-text-centered column-savoir-plus">
         <p class="is-size-5">
             <i class="fas fa-file"></i> My resume (French)
@@ -27,50 +85,11 @@
     </div>
 </div>
 
-<nav class="level">
-    <div class="level-item has-text-centered">
-        <div>
-            <a class="title is-5" href="https://www.codewars.com/users/AymericJak" target="_blank">
-            <figure class="image is-128x128">
-                <img src="/images/a-propos-de/codeWars.png" alt="codewars icon">
-            </figure>
-            CodeWars</a>
-        </div>
-    </div>
-    <div class="level-item has-text-centered">
-        <div>
-            <a class="title is-5" href="https://www.codingame.com/profile/1d7ec5af38a00e3eca8e4c28296d906d5834374" target="_blank">
-            <figure class="image is-128x128">
-                <img src="/images/a-propos-de/codinGame.svg" alt="codin game icon">
-            </figure>
-            CodinGame</a>
-        </div>
-    </div>
-    <div class="level-item has-text-centered">
-        <div>
-            <a class="title is-5" href="https://github.com/AymericJak" target="_blank">
-            <figure class="image is-128x128">
-                <img src="/images/competences/IDE/github-icon.svg" alt="github icon">
-            </figure>
-            GitHub</a>
-        </div>
-    </div>
-    <div class="level-item has-text-centered">
-        <div>
-            <a class="title is-5" href="https://www.linkedin.com/in/aymeric-jakobowski/?locale=en_US" target="_blank">
-            <figure class="image is-128x128">
-                <img src="/images/a-propos-de/linkedIn.png" alt="linkedin icon">
-            </figure>
-            LinkedIn</a>
-        </div>
-    </div>
-</nav>
-
 <script>
     function copyObject(idButtonString, idTextString) {
         let elemButton = document.getElementById(idButtonString);
         let elemText = document.getElementById(idTextString).textContent.toLowerCase();
-        
+
         navigator.clipboard.writeText(elemText);
         elemButton.innerHTML = 'Copied !';
         setTimeout(() => {
