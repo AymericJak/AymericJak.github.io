@@ -5,5 +5,5 @@ description: "Le SWERC est une compétition internationale de programmation qui 
 logo: "/images/evenements/swerc.png"
 siteOfficiel: "https://swerc.eu/2022/about/"
 lienYoutube: "https://www.youtube.com/live/m2cW_51O9kk?feature=share"
-draft: false
+draft: true
 ---

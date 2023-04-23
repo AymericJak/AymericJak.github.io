@@ -5,5 +5,5 @@ description: "Les 24 heures des IUT Informatique est une compétition annuelle o
 logo: "/images/evenements/24-heures-info.png"
 siteOfficiel: "https://24hinfo.iut.fr/"
 lienYoutube: "null"
-draft: false
+draft: true
 ---
