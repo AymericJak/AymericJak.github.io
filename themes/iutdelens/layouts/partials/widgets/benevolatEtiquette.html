@@ -1,0 +1,11 @@
+<div class="box">
+    <div class="columns is-vcentered">
+        <figure class="image is-128x128">
+            <a href="{{ .Permalink }}"><img src="{{.Params.logo }}" alt="logo de l'évènement '{{ .Title }}'"></a>
+        </figure>
+        <div class="column">
+            <h4 class="title has-text is-4"><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
+            <p class="has-text-justified">{{ .Params.description }}</p>
+        </div>
+    </div>
+</div>
