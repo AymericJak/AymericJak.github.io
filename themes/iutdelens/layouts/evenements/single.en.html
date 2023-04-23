@@ -1,0 +1,40 @@
+{{ define "main" }}
+<div class="container">
+    <div class="section">
+        <div class="content">
+            <h1 class="title has-text-centered is-size-1-tablet is-family-title">{{.Title}}</h1>
+            <hr>
+            <div class="columns is-vcentered">
+                <div class="column is-one-third">
+                    <figure class="image">
+                        <img src="{{.Params.logo}}">
+                    </figure>
+                </div>
+
+                <div class="column">
+                    {{partial "widgets/english/CI-evenement.en" .}}
+                </div>
+            </div>
+            <h3 class="is-3 has-text-centered">
+                <b>Discover the event on : </b>
+
+                {{if ne .Params.siteOfficiel "null" }}
+                <a href="{{ .Params.siteOfficiel }}" target="_blank">
+                    <i class="fas fa-globe"></i> Official website
+                </a>
+                {{ end}}
+
+                {{if ne .Params.lienYoutube "null" }}
+                - <a href="{{ .Params.lienYoutube }}" target="_blank">
+                <i class="fab fa-youtube"></i> Youtube
+            </a>
+                {{ end }}
+            </h3>
+            <hr>
+            <div class="contenuProjet">
+                {{.Content}}
+            </div>
+        </div>
+    </div>
+</div>
+{{ end }}
