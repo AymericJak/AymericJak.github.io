@@ -60,6 +60,9 @@ defaultContentLanguage = 'fr'
 [[languages.fr.menu.footer]]
 name = "Évènements"
 url = "/evenements"
+[[languages.fr.menu.footer]]
+name = "Bénévolat"
+url = "/benevolat"
 
 
     [languages.en]
@@ -107,3 +110,6 @@ url = "/evenements"
 [[languages.en.menu.footer]]
     name = "Events"
     url = "/en/events"
+[[languages.en.menu.footer]]
+    name = "Volunteering"
+    url = "/en/benevolat"
