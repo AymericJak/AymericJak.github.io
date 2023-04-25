@@ -2,7 +2,7 @@ baseURL = '/'
 languageCode = 'fr-fr'
 title = 'Portfolio'
 theme = 'iutdelens'
-paginate = 4
+paginate = 6
 defaultContentLanguage = 'fr'
 
 [markup]

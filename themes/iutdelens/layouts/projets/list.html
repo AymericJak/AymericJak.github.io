@@ -5,9 +5,9 @@
             <h1 class="title is-size-1-tablet is-family-title">Liste des projets :</h1>
         </div>
     
-        <div class="columns">
+        <div class="columns is-multiline is-centered">
             {{ range .Paginator.Pages }}
-                <div class="column">
+                <div class="column is-one-third">
                     {{ partial "widgets/projetEtiquette.html" . }}
                 </div>
             {{ end }}
