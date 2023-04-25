@@ -644,10 +644,10 @@ div.navbar-menu.is-active a {
     padding-bottom: 5px;
 }
 
-.savoir-plus-icon {
+.zoom {
     transition: transform .2s;
 }
 
-.savoir-plus-icon:hover {
+.zoom:hover {
     transform: scale(1.05);
 }
