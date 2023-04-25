@@ -2,19 +2,19 @@
     {{ range $index, $.Params.categories }}
     <div class="column is-narrow">
         {{ if (or (eq $index "Projet universitaire") (eq $index "University project")) }}
-        <span class="tag is-warning">
+        <span class="tag is-warning zoom">
             <a class="has-text-black" href="{{ "categories/" | relURL }}{{ $index | urlize }}">
                 {{ $index }}
             </a>
         </span>
         {{ else if (or (eq $index "Projet personnel") (eq $index "Personal project")) }}
-        <span class="tag is-success">
+        <span class="tag is-success zoom">
             <a class="has-text-white" href="{{ "categories/" | relURL }}{{ $index | urlize }}">
                 {{ $index }}
             </a>
         </span>
         {{ else }}
-        <span class="tag is-link is-light ">
+        <span class="tag is-link is-light zoom">
             <a class="has-text-black" href="{{ "categories/" | relURL }}{{ $index | urlize }}">
                 {{ $index }}
             </a>
