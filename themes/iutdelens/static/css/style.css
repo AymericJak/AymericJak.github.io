@@ -651,3 +651,14 @@ div.navbar-menu.is-active a {
 .zoom:hover {
     transform: scale(1.05);
 }
+
+.scroller {
+    position: fixed;
+    z-index: 99999;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 5px;
+    background: linear-gradient(90deg, #519acb, #016FB9);
+
+}
