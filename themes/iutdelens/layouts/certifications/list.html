@@ -12,7 +12,7 @@
                             <div class="media is-flex is-align-items-center">
                                 <div class="media-left">
                                     <figure class="image is-64x64">
-                                        <img src="{{ .Params.logo }}" alt="logo pix">
+                                        <img src="{{ .Params.logo }}" alt="{{ .Params.logoAlt }}">
                                     </figure>
                                 </div>
                                 <div class="media-content">
@@ -25,10 +25,11 @@
                             <div class="content">
                                 {{ if eq .Params.enCours "False" }}
                                 <p>Émise en {{ .Params.dateEmission }} · {{ .Params.dateExpiration }}</p>
-                                <p>Identifiant de la certification <b><i>{{ .Params.identifiant }}</i></b></p>
+                                <p>Identifiant de la certification : <b><i>{{ .Params.identifiant }}</i></b></p>
                                 {{ else }}
                                 <figure class="image m-auto" style="height: 50%; width: 50%;">
-                                    <img src="/images/competences/Certifications/reading-book-learn.svg" alt="">
+                                    <img src="/images/competences/Certifications/reading-book-learn.svg"
+                                         alt="livre pour apprendre">
                                 </figure>
                                 <p class="has-text-centered">En cours de formation !</p>
                                 {{ end }}

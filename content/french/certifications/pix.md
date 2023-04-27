@@ -2,6 +2,7 @@
 title: "Pix"
 slug: "pix"
 logo: "/images/competences/Certifications/Pix_Icon.png"
+logoAlt: "logo de pix"
 siteOfficiel: "https://pix.fr"
 dateEmission: "juin 2022"
 dateExpiration: "Sans date d'expiration"
