@@ -15,3 +15,9 @@ for (let i = 1; i < shareButtons.length; i++) {
         }
     })
 }
+
+function shareOnLinkedIn() {
+    url = window.location.href
+    var linkedinShareURL = 'https://www.linkedin.com/sharing/share-offsite/?url=' + encodeURIComponent(url);
+    window.open(linkedinShareURL, '_blank');
+}
