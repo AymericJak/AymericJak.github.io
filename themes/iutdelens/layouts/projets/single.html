@@ -11,26 +11,40 @@
                         <img src="{{.Params.image}}">
                     </figure>
                 </div>
-                
+
                 <div class="column">
                     {{partial "widgets/CI_Projet" .}}
                 </div>
             </div>
             <h3 class="is-3 has-text-centered">
                 <b>Retrouvez le projet sur : </b>
-                
+
                 {{if ne .Params.lienGitHub "null" }}
                 <a href="{{ .Params.lienGitHub }}" target="_blank">
                     <i class="fab fa-github"></i> GitHub
-                </a> 
+                </a>
                 {{ end}}
-                
+
                 {{if ne .Params.lienYoutube "null" }}
                 - <a href="{{ .Params.lienYoutube }}" target="_blank">
-                    <i class="fab fa-youtube"></i> Youtube
-                </a>
+                <i class="fab fa-youtube"></i> Youtube
+            </a>
                 {{ end }}
             </h3>
+
+            <div class="is-flex is-justify-content-center is-align-items-center">
+                <button class="share-button main">
+                    <i class="fas fa-share-alt"></i>
+                </button>
+
+                <button class="share-button linkedin">
+                    <i class="fab fa-linkedin-in"></i>
+                </button>
+
+                <button class="share-button twitter">
+                    <i class="fab fa-twitter"></i>
+                </button>
+            </div>
             <hr>
             <div class="contenuProjet">
                 {{.Content}}
@@ -38,5 +52,6 @@
         </div>
     </div>
 </div>
+<script src="{{"js/share-option.js" | relURL}}"></script>
 <script src="{{"js/scrollbar-project.js" | relURL}}"></script>
 {{ end }}

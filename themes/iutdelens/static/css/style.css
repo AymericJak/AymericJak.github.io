@@ -662,3 +662,51 @@ div.navbar-menu.is-active a {
     background: linear-gradient(90deg, #519acb, #016FB9);
 
 }
+
+.shareButton {
+    transform: rotate(0) scale(1);
+    opacity: 1
+}
+
+.share-button, .share-button.open {
+    border: none;
+    border-radius: 35%;
+    background: #016FB9;
+    color: #ffffff;
+    font-size: 100%;
+    padding: 1rem;
+    overflow: hidden;
+    outline: none;
+    margin: 0.5rem;
+    width: 24px;
+    height: 24px;
+    box-sizing: content-box;
+    transition: all 200ms;
+    opacity: 1;
+    transform: scale(1);
+}
+
+.share-button:hover, .share-button.open:hover {
+    transform: scale(1.1) translateY(-3px);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+}
+
+.linkedin, .shareButton.open.linkedin {
+    transition-delay: 50ms;
+}
+
+.twitter, .shareButton.open.twitter {
+    transition-delay: 100ms;
+}
+
+.twitter, .linkedin {
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+    opacity: 0;
+    transform: scale(0);
+}
+/*.RelPermalink*/
