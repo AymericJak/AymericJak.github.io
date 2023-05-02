@@ -31,20 +31,7 @@
             </a>
                 {{ end }}
             </h3>
-
-            <div class="is-flex is-justify-content-center is-align-items-center">
-                <button class="share-button main">
-                    <i class="fas fa-share-alt"></i>
-                </button>
-
-                <button class="share-button linkedin" onclick="shareOnLinkedIn()">
-                    <i class="fab fa-linkedin-in"></i>
-                </button>
-
-                <button class="share-button twitter" onclick="shareOnTwitter()">
-                    <i class="fab fa-twitter"></i>
-                </button>
-            </div>
+            {{ partial "widgets/shareButtons" . }}
             <hr>
             <div class="contenuProjet">
                 {{.Content}}
@@ -52,6 +39,5 @@
         </div>
     </div>
 </div>
-<script src="{{"js/share-option.js" | relURL}}"></script>
 <script src="{{"js/scrollbar-project.js" | relURL}}"></script>
 {{ end }}
