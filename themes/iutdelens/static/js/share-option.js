@@ -21,3 +21,9 @@ function shareOnLinkedIn() {
     var linkedinShareURL = 'https://www.linkedin.com/sharing/share-offsite/?url=' + encodeURIComponent(url);
     window.open(linkedinShareURL, '_blank');
 }
+
+function shareOnTwitter() {
+    url = window.location.href
+    var twitterShareURL = "http://twitter.com/share?text=&url=" + encodeURIComponent(url);
+    window.open(twitterShareURL, '_blank');
+}
