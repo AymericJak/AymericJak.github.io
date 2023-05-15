@@ -19,7 +19,7 @@ L'édition 2023 du SWERC s'est déroulée à Milan en Italie ! Nous étions 120 
 
 ### I/ Comment ai-je découvert cette compétition ?
 
-Durant mon BUT Informatique à l'IUT de Lens, il y avait de manière ponctuelle des SAÉ (Situation d'Apprentissage et d'Évaluation).
+Durant mon BUT Informatique à l'[IUT de Lens](http://www.iut-lens.univ-artois.fr/), il y avait de manière ponctuelle des SAÉ (Situation d'Apprentissage et d'Évaluation).
 Au semestre 3, notre enseignant a décidé de réaliser une petite compétition d'algorithmie entre les différents étudiants de la promotion.
 Celle-ci reprenait les mêmes codes / contraintes que la compétition originale, soit : le SWERC.
 

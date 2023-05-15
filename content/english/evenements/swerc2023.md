@@ -19,7 +19,7 @@ The 2023 edition of SWERC took place in Milan, Italy! We were 120 teams in compe
 
 ### I/ How did I discover this competition?
 
-During my computer science degree at the IUT of Lens, there were occasional SAE (Situation of Apprentice and Evaluation).
+During my computer science degree at the [IUT of Lens](http://www.iut-lens.univ-artois.fr/), there were occasional SAE (Situation of Apprentice and Evaluation).
 In semester 3, our teacher decided to realize a small algorithmic competition between the different students of the promotion.
 This one was based on the same codes / constraints as the original competition, i.e. the SWERC.
 
