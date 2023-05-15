@@ -55,4 +55,3 @@ Again, it was a very rich experience!
 It allowed me to get out of my comfort zone because of the very long hours!
 
 To have been able to meet different students from all over France was a real pleasure!
-li
