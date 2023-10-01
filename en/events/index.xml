@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>List of participated events :  on Portfolio</title>
+    <link>/en/events/</link>
+    <description>Recent content in List of participated events :  on Portfolio</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-fr</language><atom:link href="/en/events/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>24H INFO</title>
+      <link>/en/evenements/24-hours-info-2023/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/en/evenements/24-hours-info-2023/</guid>
+      <description>The 2023 edition of the 24 hours of info took place in Bourg-en-Bresse, and was organized by the IUT Lyon 1 ! We were 23 teams in competition.
+Membres de l&amp;rsquo;équipe : BOBEUF Jules LinkedIn FIEVET Arnaud LinkedIn I/ How did I discover this competition? During my computer science degree at the IUT of Lens, our web development teacher told us about this competition.
+This year, I also had the opportunity to participate to the SWERC, a really memorable experience!</description>
+    </item>
+    
+    <item>
+      <title>SWERC</title>
+      <link>/en/evenements/swerc-2023/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/en/evenements/swerc-2023/</guid>
+      <description>The 2023 edition of SWERC took place in Milan, Italy! We were 120 teams in competition.
+Project members : FALQUE Thibault (coach) LinkedIn BOBEUF Jules LinkedIn FACON Nicolas LinkedIn I/ How did I discover this competition? During my computer science degree at the IUT of Lens, there were occasional SAE (Situation of Apprentice and Evaluation). In semester 3, our teacher decided to realize a small algorithmic competition between the different students of the promotion.</description>
+    </item>
+    
+  </channel>
+</rss>

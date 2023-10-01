@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Flask on Portfolio</title>
+    <link>/categories/flask/</link>
+    <description>Recent content in Flask on Portfolio</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-fr</language>
+    <lastBuildDate>Mon, 07 Nov 2022 17:22:00 +0200</lastBuildDate><atom:link href="/categories/flask/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Application architecture à trois niveaux</title>
+      <link>/projets/projetmsi/</link>
+      <pubDate>Mon, 07 Nov 2022 17:22:00 +0200</pubDate>
+      
+      <guid>/projets/projetmsi/</guid>
+      <description>Membres du projets : BOBEUF Jules LinkedIn SANTORO Thomas LinkedIn I/ Réalisation de l&amp;rsquo;application avec Flask L&amp;rsquo;application a donc été réalisée avec Flask, un micro framework pour le développement web en python.
+Nous allons réaliser une application web qui repose sur une architecture à trois niveaux.
+L&amp;rsquo;architecture à deux niveaux (aussi appelée architecture 2-tier) caractérise les systèmes clients/serveurs dans lesquels le client demande une ressource et le serveur la lui fournit directement.</description>
+    </item>
+    
+  </channel>
+</rss>

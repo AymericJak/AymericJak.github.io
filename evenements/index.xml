@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Liste des évènements participés :  on Portfolio</title>
+    <link>/evenements/</link>
+    <description>Recent content in Liste des évènements participés :  on Portfolio</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-fr</language><atom:link href="/evenements/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>24H INFO</title>
+      <link>/evenements/24-heures-info-2023/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/evenements/24-heures-info-2023/</guid>
+      <description>L&amp;rsquo;édition 2023 des 24 heures de l&amp;rsquo;info s&amp;rsquo;est déroulée à Bourg-en-Bresse, et a été organisée par l’IUT Lyon 1 ! Nous étions 23 équipes en compétition.
+Membres de l&amp;rsquo;équipe : BOBEUF Jules LinkedIn FIEVET Arnaud LinkedIn I/ Comment ai-je découvert cette compétition ? Durant mon BUT Informatique à l&amp;rsquo;IUT de Lens, notre enseignant de développement web nous a parlé de cette compétition.
+Cette année, j&amp;rsquo;ai aussi eu l&amp;rsquo;occasion de participer au SWERC, une expérience vraiment mémorable !</description>
+    </item>
+    
+    <item>
+      <title>SWERC</title>
+      <link>/evenements/swerc-2023/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/evenements/swerc-2023/</guid>
+      <description>L&amp;rsquo;édition 2023 du SWERC s&amp;rsquo;est déroulée à Milan en Italie ! Nous étions 120 équipes en compétition.
+Membres de l&amp;rsquo;équipe : FALQUE Thibault (coach) LinkedIn BOBEUF Jules LinkedIn FACON Nicolas LinkedIn I/ Comment ai-je découvert cette compétition ? Durant mon BUT Informatique à l&amp;rsquo;IUT de Lens, il y avait de manière ponctuelle des SAÉ (Situation d&amp;rsquo;Apprentissage et d&amp;rsquo;Évaluation). Au semestre 3, notre enseignant a décidé de réaliser une petite compétition d&amp;rsquo;algorithmie entre les différents étudiants de la promotion.</description>
+    </item>
+    
+  </channel>
+</rss>
