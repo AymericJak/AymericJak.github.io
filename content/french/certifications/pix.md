@@ -1,5 +1,5 @@
 ---
-title: "Pix"
+title: "Certification Pix"
 slug: "pix"
 logo: "/images/competences/Certifications/Pix_Icon.png"
 logoAlt: "logo de pix"

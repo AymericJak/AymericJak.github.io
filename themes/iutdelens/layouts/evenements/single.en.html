@@ -8,7 +8,7 @@
             <div class="columns is-vcentered">
                 <div class="column is-one-third">
                     <figure class="image">
-                        <img src="{{.Params.logo}}">
+                        <img src="{{ .Params.logo }}" alt="Logo of '{{ .Title }}' event">
                     </figure>
                 </div>
 
@@ -16,7 +16,7 @@
                     {{partial "widgets/english/CI-evenement.en" .}}
                 </div>
             </div>
-            <h3 class="is-3 has-text-centered">
+            <h2 class="is-3 has-text-centered">
                 <b>Discover the event on : </b>
 
                 {{if ne .Params.siteOfficiel "null" }}
@@ -30,7 +30,7 @@
                 <i class="fab fa-youtube"></i> Youtube
             </a>
                 {{ end }}
-            </h3>
+            </h2>
             {{ partial "widgets/shareButtons" . }}
             <hr>
             <div class="contenuProjet">
