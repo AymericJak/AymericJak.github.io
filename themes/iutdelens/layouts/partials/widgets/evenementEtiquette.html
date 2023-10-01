@@ -4,9 +4,9 @@
             <a href="{{ .Permalink }}"><img src="{{.Params.logo }}" alt="logo de l'évènement '{{ .Title }}'"></a>
         </figure>
         <div class="column is-9">
-            <h4 class="title has-text is-4"><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
+            <h2 class="title has-text is-4"><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
             <p class="has-text-justified">{{ .Params.description }}</p>
         </div>
-        <p class="column has-text-weight-bold is-size-5 has-text-centered is-1">{{ .Params.edition }}</p>
+        <h3 class="column has-text-weight-bold is-size-5 has-text-centered is-1">{{ .Params.edition }}</h3>
     </div>
 </div>

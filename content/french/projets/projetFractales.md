@@ -3,9 +3,11 @@ title: "Projet fractales"
 date: 2022-10-30T17:22:00+02:00
 categories : ["Projet universitaire", "JAVA"]
 image : "/images/projets/projetFractales/fractalVignette.png"
+imageAlt: "Fractale représentant la suite de Julia"
 description : "Notre équipe a été choisie par un lycée partenaire pour développer une bibliothèque logicielle visant à faire découvrir des propriétés mathématiques à ses élèves de manière ludique. Plus précisément, cette bibliothèque doit pouvoir générer des images représentant différentes fractales."
 lienYoutube: "null"
 lienGitHub: "https://github.com/AymericJak/UnivProject-fractalGenerationApp"
+lienSite: "null"
 draft: false
 ---
 

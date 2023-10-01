@@ -3,9 +3,11 @@ title: "La Toile"
 date: 2023-01-08T10:22:26+01:00
 categories : [Projet universitaire, Web, PHP, Laravel]
 image : "/images/projets/laToile/laToileVignette.png"
+imageAlt: "Logo du site La Toile"
 description : "Notre site \"La Toile\" permet aux visiteurs de parcourir une galerie virtuelle d'images numériques en se déplaçant d'une salle (représentée par un arrêt de métro) à l'autre. Créé en 48 heures en équipe de 7 utilisant HTML, CSS, JavaScript et PHP, \"La Toile\" présente une liste d'œuvres d'art numérique dans chaque salle."
 lienYoutube: "null"
 lienGitHub: "https://github.com/AymericJak/UnivProject-LaToile"
+lienSite: "null"
 draft: false
 ---
 
