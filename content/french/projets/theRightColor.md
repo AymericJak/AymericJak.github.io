@@ -3,6 +3,7 @@ title: "The Right Color"
 date: 2023-10-01T09:13:57+02:00
 categories: [ Projet personnel, Web, Angular, Typescript ]
 image: "/images/projets/theRightColor/the-right-color-vignette.png"
+imageAlt: "Logo du site The Right Color"
 description: "Testez votre réctivité et votre capacité d'assimilation dans ce jeu."
 lienYoutube: "null"
 lienGitHub: "null"

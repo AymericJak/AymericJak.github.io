@@ -3,6 +3,7 @@ title: "Dragon Expo"
 date: 2022-01-16T19:00:00+02:00
 categories : ["University project", "Web"]
 image : "/images/projets/dragon_Expo.png"
+imageAlt: "Screenshot of home page of the Dragon Expo website"
 description : "We' re specialised in event management. To avoid having too much competition, we have to specialise in a particular field. Creation of identification sheets, personas, website, etc."
 lienYoutube: "null"
 lienGitHub: "https://github.com/AymericJak/UnivProject-DragonExpo"

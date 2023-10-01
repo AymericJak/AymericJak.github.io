@@ -3,6 +3,7 @@ title: "Application Gestion Ventes"
 date: 2022-06-17T19:12:00+02:00
 categories : ["Projet universitaire", "JAVA"]
 image : "/images/projets/gestionVentesVignette.png"
+imageAlt: "Image tirée du flyer de notre animalerie Nékléo fictive"
 description : "L'objectif général est la réalisation d'une application développée en Java afin de permettre à une entreprise de ventes d'automatiser la gestion de ses commandes."
 lienYoutube: "null"
 lienGitHub: "https://github.com/AymericJak/UnivProject-ApplicationGestionVentes"

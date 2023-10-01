@@ -715,3 +715,7 @@ div.navbar-menu.is-active a {
     transform: scale(0);
 }
 /*.RelPermalink*/
+
+.is-blue-button {
+    background: #016FB9;
+}

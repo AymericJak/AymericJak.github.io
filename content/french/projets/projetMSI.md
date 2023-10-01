@@ -1,9 +1,10 @@
 ---
 title: "Application architecture à trois niveaux"
 date: 2022-11-07T17:22:00+02:00
-categories : ["Projet universitaire", "Web", "Python", "Flask"]
-image : "/images/projets/projetMSI/MSIThreeTierAppVignette.png"
-description : "Un client dispose de plusieurs datacenters. En raison du réchauffement climatique, il devient important d'optimiser la régulation des climatisations de ces centres données..."
+categories: [ "Projet universitaire", "Web", "Python", "Flask" ]
+image: "/images/projets/projetMSI/MSIThreeTierAppVignette.png"
+imageAlt: "Illustration de serveurs de datacenter sous un ciel bleu et nuageux, avec des nuages rouges évoquant le réchauffement climatique"
+description: "Un client dispose de plusieurs datacenters. En raison du réchauffement climatique, il devient important d'optimiser la régulation des climatisations de ces centres données..."
 lienYoutube: "null"
 lienGitHub: "https://github.com/AymericJak/UnivProject-MSIThreeTierArchitectureApp"
 lienSite: "null"

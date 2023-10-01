@@ -3,6 +3,7 @@ title: "Sales Management Application"
 date: 2022-06-17T19:12:00+02:00
 categories : ["University project", "JAVA"]
 image : "/images/projets/gestionVentesVignette.png"
+imageAlt: "Image from our fictitious Nékléo pet shop flyer"
 description : "The purpose of the project is to develop an application in Java to allow a sales company to automate the management of its orders."
 lienYoutube: "null"
 lienGitHub: "https://github.com/AymericJak/UnivProject-ApplicationGestionVentes"

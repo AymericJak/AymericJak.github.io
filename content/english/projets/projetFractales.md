@@ -3,6 +3,7 @@ title: "Fractal project"
 date: 2022-10-30T17:22:00+02:00
 categories : ["University project", "JAVA"]
 image : "/images/projets/projetFractales/fractalVignette.png"
+imageAlt: "Fractal representing Julia's suite"
 description : "Our team has been chosen by a partner high school to develop a software library in order to show mathematical properties to its students in a playful way. More precisely, this library must be able to generate images representing different fractals."
 lienYoutube: "null"
 lienGitHub: "https://github.com/AymericJak/UnivProject-fractalGenerationApp"
