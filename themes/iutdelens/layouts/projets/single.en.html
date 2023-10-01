@@ -11,25 +11,32 @@
                         <img src="{{.Params.image}}">
                     </figure>
                 </div>
-                
+
                 <div class="column">
                     {{partial "widgets/english/CI_Projet.en" .}}
                 </div>
             </div>
             <h3 class="is-3 has-text-centered">
                 <b>Find the project on : </b>
-                
+
                 {{if ne .Params.lienGitHub "null" }}
                 <a href="{{ .Params.lienGitHub }}" target="_blank">
                     <i class="fab fa-github"></i> GitHub
-                </a> 
+                </a>
                 {{ end}}
-                
+
                 {{if ne .Params.lienYoutube "null" }}
-                - <a href="{{ .Params.lienYoutube }}" target="_blank">
+                <a href="{{ .Params.lienYoutube }}" target="_blank">
                     <i class="fab fa-youtube"></i> Youtube
                 </a>
                 {{ end }}
+
+                {{if ne .Params.lienSite "null" }}
+                <a href="{{ .Params.lienSite }}" target="_blank">
+                    <i class="fas fa-globe"></i> Voir le site
+                </a>
+                {{ end}}
+
             </h3>
             {{ partial "widgets/shareButtons" . }}
             <hr>

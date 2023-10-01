@@ -6,6 +6,7 @@ image : "/images/projets/projetFractales/fractalVignette.png"
 description : "Notre équipe a été choisie par un lycée partenaire pour développer une bibliothèque logicielle visant à faire découvrir des propriétés mathématiques à ses élèves de manière ludique. Plus précisément, cette bibliothèque doit pouvoir générer des images représentant différentes fractales."
 lienYoutube: "null"
 lienGitHub: "https://github.com/AymericJak/UnivProject-fractalGenerationApp"
+lienSite: "null"
 draft: false
 ---
 

@@ -6,6 +6,7 @@ image : "/images/projets/dragon_Expo.png"
 description : "We' re specialised in event management. To avoid having too much competition, we have to specialise in a particular field. Creation of identification sheets, personas, website, etc."
 lienYoutube: "null"
 lienGitHub: "https://github.com/AymericJak/UnivProject-DragonExpo"
+lienSite: "null"
 draft: false
 ---
 

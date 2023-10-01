@@ -400,6 +400,10 @@ main {
     float: left;
 }
 
+.slide-image {
+    outline: 1px solid black;
+    outline-offset: -1px;
+}
 
 @keyframes glisse {
     0% {
@@ -430,7 +434,7 @@ main {
 
 @media screen and (min-width: 501px) and (max-width: 835px) {
 
-    .image_accueil {
+    .slide-image {
         width: 400px;
     }
 
@@ -448,6 +452,7 @@ main {
     .slide {
         float: left;
     }
+
 
     @keyframes glisse {
         0% {
@@ -478,7 +483,7 @@ main {
 
 @media screen and (max-width: 500px) {
 
-    .image_accueil {
+    .slide-image {
         width: 250px;
     }
 

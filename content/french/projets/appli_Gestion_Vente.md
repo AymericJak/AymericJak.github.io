@@ -6,6 +6,7 @@ image : "/images/projets/gestionVentesVignette.png"
 description : "L'objectif général est la réalisation d'une application développée en Java afin de permettre à une entreprise de ventes d'automatiser la gestion de ses commandes."
 lienYoutube: "null"
 lienGitHub: "https://github.com/AymericJak/UnivProject-ApplicationGestionVentes"
+lienSite: "null"
 draft: false
 ---
 

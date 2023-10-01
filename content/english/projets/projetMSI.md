@@ -6,6 +6,7 @@ image : "/images/projets/projetMSI/MSIThreeTierAppVignette.png"
 description : "A customer has several data centers. Due to global warming, it becomes important to optimise the air conditioning control of these data centers..."
 lienYoutube: "null"
 lienGitHub: "https://github.com/AymericJak/UnivProject-MSIThreeTierArchitectureApp"
+lienSite: "null"
 draft: false
 ---
 

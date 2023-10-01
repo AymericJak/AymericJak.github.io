@@ -6,6 +6,7 @@ image : "/images/projets/projetFractales/fractalVignette.png"
 description : "Our team has been chosen by a partner high school to develop a software library in order to show mathematical properties to its students in a playful way. More precisely, this library must be able to generate images representing different fractals."
 lienYoutube: "null"
 lienGitHub: "https://github.com/AymericJak/UnivProject-fractalGenerationApp"
+lienSite: "null"
 draft: false
 ---
 

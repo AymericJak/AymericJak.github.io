@@ -4,7 +4,7 @@
         <div class="slide is-5by3">
             <a href="{{.Permalink}}">
                 <figure class="is-5by3">
-                    <img class="image_accueil" src="{{.Params.image}}" alt="">
+                    <img class="slide-image" src="{{.Params.image}}" alt="">
                 </figure>
             </a>
             <h3 class="subtitle has-text-centered {{ if gt (len .Title) 18 }} is-size-7-mobile {{ end }}"><a href="{{.Permalink}}">~ {{.Title}} ~</a></h3>

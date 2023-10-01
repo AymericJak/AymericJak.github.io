@@ -26,10 +26,17 @@
                 {{ end}}
 
                 {{if ne .Params.lienYoutube "null" }}
-                - <a href="{{ .Params.lienYoutube }}" target="_blank">
-                <i class="fab fa-youtube"></i> Youtube
-            </a>
+                <a href="{{ .Params.lienYoutube }}" target="_blank">
+                    <i class="fab fa-youtube"></i> Youtube
+                </a>
                 {{ end }}
+
+                {{if ne .Params.lienSite "null" }}
+                <a href="{{ .Params.lienSite }}" target="_blank">
+                    <i class="fas fa-globe"></i> Voir le site
+                </a>
+                {{ end}}
+
             </h3>
             {{ partial "widgets/shareButtons" . }}
             <hr>

@@ -6,6 +6,7 @@ image : "/images/projets/projetMSI/MSIThreeTierAppVignette.png"
 description : "Un client dispose de plusieurs datacenters. En raison du réchauffement climatique, il devient important d'optimiser la régulation des climatisations de ces centres données..."
 lienYoutube: "null"
 lienGitHub: "https://github.com/AymericJak/UnivProject-MSIThreeTierArchitectureApp"
+lienSite: "null"
 draft: false
 ---
 

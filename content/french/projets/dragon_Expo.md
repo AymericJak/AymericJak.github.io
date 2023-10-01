@@ -6,6 +6,7 @@ image : "/images/projets/dragon_Expo.png"
 description : "Nous sommes spécialisé dans l'événementiel. Pour éviter d'avoir trop de concurrence, nous devons nous spécialiser dans un domaine particulier. Réalisation de fiche signalétique, personnas, site web, etc."
 lienYoutube: "null"
 lienGitHub: "https://github.com/AymericJak/UnivProject-DragonExpo"
+lienSite: "null"
 draft: false
 ---
 
