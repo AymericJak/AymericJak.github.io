@@ -1,12 +1,12 @@
 <div class="card">
     <div class="card-image">
         <figure class="image is-5by3">
-            <a href="{{ .Permalink }}"><img src="{{.Params.image}}" alt="Image du projet"></a>
+            <a href="{{ .Permalink }}"><img src="{{.Params.image}}" alt="{{ .Params.imageAlt }}"></a>
         </figure>        
     </div>
 
     <div class="card-content">
-        <h4 class="title has-text-centered is-4"><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
+        <h2 class="title has-text-centered is-4"><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
 
         <div class="content has-text-justified">
             {{.Params.description}}

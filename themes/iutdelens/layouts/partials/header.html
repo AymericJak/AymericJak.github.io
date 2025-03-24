@@ -2,8 +2,8 @@
     <nav class="navbar" role="navigation">
         <div class="container">
             <div class="navbar-brand">
-                <a href="/{{ if eq .Language.LanguageName "English" }}en/{{end}}" title="home" class="navbar-item">
-                    <img class="logo" id="image_logo" src="/images/logo_JAK.svg" alt="LOGO">
+                <a href="/{{ if eq .Language.LanguageName "English" }}en/{{end}}" title="{{ if eq .Language.LanguageName "English" }}Home{{else}}Accueil{{end}}" class="navbar-item">
+                    <img class="logo" id="image_logo" src="/images/logo_JAK.svg" alt="Logo - Portfolio">
                     <span class="logo">
                         <h1 class="title is-4">{{ .Site.Title }}</h1>
                     </span>
