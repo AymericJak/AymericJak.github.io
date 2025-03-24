@@ -1,38 +1,36 @@
 {{ define "main" }}
 
-
 <div id="home-part1" class="section columns is-desktop">
-    <div id="home-name" class="column is-three-fifths-desktop">
-        <h1 class="title has-text-centered name-homepage is-family-title">JAKOBOWSKI<br>Aymeric</h1>
-        <h2 class="subtitle has-text-centered status">Django - Web - Python Developer<br>IT Student</h2>
-        <hr style="margin: 3rem 20%;">
-        <p class="is-size-5 has-text-centered">Currently in an apprenticeship contract at the <a
-                href="https://www.univ-lille.fr/" target="_blank">University of Lille.</a></p>
-    </div>
-    <div id="home-flex" class="column">
-        <a class="linkButtons" href="#home-part2">
-            <button class="allButtons animHoverbutton">Projects</button>
-        </a>
-        <a class="linkButtons" href="#home-part3">
-            <button class="allButtons animHoverbutton">Studies</button>
-        </a>
-        <a class="linkButtons" href="#home-part4">
-            <button class="allButtons animHoverbutton">Skills</button>
-        </a>
-        <a class="linkButtons" href="#home-part5">
-            <button class="allButtons animHoverbutton">Read more</button>
-        </a>
-    </div>
+	<div id="home-name" class="column is-three-fifths-desktop">
+		<h1 class="title has-text-centered name-homepage is-family-title">JAKOBOWSKI<br>Aymeric</h1>
+		<h2 class="subtitle has-text-centered status">Django - Web - Python Developer<br>Master MIAGE student</h2>
+		<hr style="margin: 3rem 20%;">
+		<p class="is-size-5 has-text-centered">Currently looking for a sandwich course starting in September.</p>
+	</div>
+	<div id="home-flex" class="column">
+		<a class="linkButtons" href="#home-part2">
+			<button class="allButtons animHoverbutton">Projects</button>
+		</a>
+		<a class="linkButtons" href="#home-part3">
+			<button class="allButtons animHoverbutton">Studies</button>
+		</a>
+		<a class="linkButtons" href="#home-part4">
+			<button class="allButtons animHoverbutton">Skills</button>
+		</a>
+		<a class="linkButtons" href="#home-part5">
+			<button class="allButtons animHoverbutton">Read more</button>
+		</a>
+	</div>
 </div>
 
 <hr>
 
 <div id="home-part2" class="section">
-    <h2 class="title has-text-centered is-1">Recent projects</h2>
-    <br>
-    {{ partial "Accueil/sliderProjets" . }}
-    <br>
-    <span class="level-item">
+	<h2 class="title has-text-centered is-1">Recent projects</h2>
+	<br>
+	{{ partial "Accueil/sliderProjets" . }}
+	<br>
+	<span class="level-item">
         <a class="is-size-3 has-text-weight-bold" href="/en/projets">More projects</a>
     </span>
 </div>
@@ -40,10 +38,10 @@
 <hr>
 
 <div id="home-part3" class="section">
-    <h2 class="title has-text-centered is-1">Studies</h2>
-    <br>
-    {{ partial "Accueil/english/parcours-en" . }}
-    <span class="level-item">
+	<h2 class="title has-text-centered is-1">Studies</h2>
+	<br>
+	{{ partial "Accueil/english/parcours-en" . }}
+	<span class="level-item">
         <a class="is-size-3 has-text-weight-bold" href="/en/certifications-en">Certifications</a>
     </span>
 
@@ -52,10 +50,10 @@
 <hr>
 
 <div id="home-part4" class="section">
-    <h2 class="title has-text-centered is-1">Skills</h2>
-    {{ partial "Accueil/competencesResume" . }}
-    <br>
-    <span class="level-item">
+	<h2 class="title has-text-centered is-1">Skills</h2>
+	{{ partial "Accueil/competencesResume" . }}
+	<br>
+	<span class="level-item">
         <a class="is-size-3 has-text-weight-bold" href="/en/skills-en">Read more</a>
     </span>
 </div>
@@ -63,10 +61,9 @@
 <hr>
 
 <div id="home-part5" class="section">
-    <h2 class="title has-text-centered is-1">Read more</h2>
-    <br>
-    {{ partial "Accueil/english/savoirPlus-en" . }}
+	<h2 class="title has-text-centered is-1">Read more</h2>
+	<br>
+	{{ partial "Accueil/english/savoirPlus-en" . }}
 </div>
-
 
 {{ end }}
