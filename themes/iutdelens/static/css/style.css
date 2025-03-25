@@ -117,7 +117,6 @@ body {
     cursor: pointer;
     overflow: hidden;
     background: none;
-    font-size: large;
     border-radius: 4px;
     position: relative;
     transition: all 0.4s;
@@ -403,6 +402,8 @@ main {
 .slide-image {
     outline: 1px solid black;
     outline-offset: -1px;
+    max-width: 800px;
+    height: 480px;
 }
 
 @keyframes glisse {
