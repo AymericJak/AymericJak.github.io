@@ -21,7 +21,7 @@ draft: false
 
 ### I/ Découvrez "La Toile", notre exposition virtuelle réalisée en 48 heures
 
-Vous voici notre dernier projet universitaire : "La Toile", une exposition virtuelle d'images numériques. Nous avons choisi de représenter cette exposition sous la forme du métro parisien, avec chaque salle représentant un arrêt de métro. Notre objectif était de créer ce site en seulement 48 heures et nous sommes fiers d'avoir relevé ce défi !
+Voici notre dernier projet universitaire : "La Toile", une exposition virtuelle d'images numériques. Nous avons choisi de représenter cette exposition sous la forme du métro parisien, avec chaque salle représentant un arrêt de métro. Notre objectif était de créer ce site en seulement 48 heures et nous sommes fiers d'avoir relevé ce défi !
 
 ### II/ Une exposition virtuelle de salles thématiques
 
@@ -40,10 +40,6 @@ En seulement 48h, nous n'avions pas eu le temps de tout réaliser. Quelques prob
 - Routes
 - Responsive
 - Petits détails
-
-Nous allons donc terminer le projet courant 2023 pour corriger ces problèmes et avoir un site comme nous l'avions imaginé !
-
-Bien entendu, une branche "48h" sera créée afin de garder une trace de notre performance.
 
 ### V/ En savoir plus sur "La Toile"
 

@@ -41,10 +41,6 @@ In only 48 hours, we did not have time to do everything. Some problems still per
 - Responsive
 - Small details
 
-We will therefore complete the project during 2023 to correct these problems and have a site as we had imagined it!
-
-Of course, a "48h" branch will be created to keep track of our performance.
-
 ### V/ More about "La Toile"
 
 You can read more about this project in our LinkedIn article (French), published here: <a href="https://www.linkedin.com/pulse/d%25C3%25A9couvrez-notre-exposition-dart-num%25C3%25A9rique-100-la-toile-jakobowski">Découvrez notre exposition d'art numérique 100% française : "La Toile​"</a>.
