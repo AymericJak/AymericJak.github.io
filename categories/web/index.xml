@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Web on Portfolio</title>
+    <link>/categories/web/</link>
+    <description>Recent content in Web on Portfolio</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-fr</language>
+    <lastBuildDate>Sun, 01 Oct 2023 09:13:57 +0200</lastBuildDate><atom:link href="/categories/web/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Right Color</title>
+      <link>/projets/therightcolor/</link>
+      <pubDate>Sun, 01 Oct 2023 09:13:57 +0200</pubDate>
+      
+      <guid>/projets/therightcolor/</guid>
+      <description>I/ Réalisation de l&amp;rsquo;application avec Angular Pour commencer, faisons un petit point sur ce qu&amp;rsquo;est Angular. C&amp;rsquo;est un framework côté client basé sur le Typescript. La particularité de ce framework est son côté « SPA » pour Single Page Applications. Ainsi, notre application est sur une page web unique. Un but prime : éviter le chargement d&amp;rsquo;une nouvelle page pour renforcer l&amp;rsquo;expérience utilisateur.
+II/ Le but du jeu L&amp;rsquo;objectif est simple : avoir le meilleur score.</description>
+    </item>
+    
+    <item>
+      <title>La Toile</title>
+      <link>/projets/latoile/</link>
+      <pubDate>Sun, 08 Jan 2023 10:22:26 +0100</pubDate>
+      
+      <guid>/projets/latoile/</guid>
+      <description>Membres du projets : AMADOR Clara LinkedIn LEGRY Louis LinkedIn FERAUD Alexandre LinkedIn FISCHER Julien LinkedIn BOBEUF Jules LinkedIn SANTORO Thomas LinkedIn I/ Découvrez &amp;ldquo;La Toile&amp;rdquo;, notre exposition virtuelle réalisée en 48 heures Voici notre dernier projet universitaire : &amp;ldquo;La Toile&amp;rdquo;, une exposition virtuelle d&amp;rsquo;images numériques. Nous avons choisi de représenter cette exposition sous la forme du métro parisien, avec chaque salle représentant un arrêt de métro. Notre objectif était de créer ce site en seulement 48 heures et nous sommes fiers d&amp;rsquo;avoir relevé ce défi !</description>
+    </item>
+    
+    <item>
+      <title>Application architecture à trois niveaux</title>
+      <link>/projets/projetmsi/</link>
+      <pubDate>Mon, 07 Nov 2022 17:22:00 +0200</pubDate>
+      
+      <guid>/projets/projetmsi/</guid>
+      <description>Membres du projets : BOBEUF Jules LinkedIn SANTORO Thomas LinkedIn I/ Réalisation de l&amp;rsquo;application avec Flask L&amp;rsquo;application a donc été réalisée avec Flask, un micro framework pour le développement web en python.
+Nous allons réaliser une application web qui repose sur une architecture à trois niveaux.
+L&amp;rsquo;architecture à deux niveaux (aussi appelée architecture 2-tier) caractérise les systèmes clients/serveurs dans lesquels le client demande une ressource et le serveur la lui fournit directement.</description>
+    </item>
+    
+    <item>
+      <title>Dragon Expo</title>
+      <link>/projets/dragon_expo/</link>
+      <pubDate>Sun, 16 Jan 2022 19:00:00 +0200</pubDate>
+      
+      <guid>/projets/dragon_expo/</guid>
+      <description>Voici le premier projet concret que j’ai réalisé en informatique. Dans ce projet, la création d’une entreprise d&amp;rsquo;événementiel était de mise. Afin d’en améliorer sa communication, la réalisation d’un site web et de son design était nécessaire.
+I/ Création de l&amp;rsquo;entreprise La première étape de ce projet consistait à réaliser un brainstorming pour en savoir plus sur le type d’événement que nous proposons. Une fois notre thème trouvé, en l&amp;rsquo;occurrence ici : une exposition sur les dragons, nous avons réalisé différents personas afin de déterminer les potentielles cibles de notre entreprise.</description>
+    </item>
+    
+  </channel>
+</rss>

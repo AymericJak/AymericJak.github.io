@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>PHP on Portfolio</title>
+    <link>/en/categories/php/</link>
+    <description>Recent content in PHP on Portfolio</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-fr</language>
+    <lastBuildDate>Sun, 08 Jan 2023 10:22:26 +0100</lastBuildDate><atom:link href="/en/categories/php/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>La Toile</title>
+      <link>/en/projets/latoile/</link>
+      <pubDate>Sun, 08 Jan 2023 10:22:26 +0100</pubDate>
+      
+      <guid>/en/projets/latoile/</guid>
+      <description>Project members : AMADOR Clara LinkedIn LEGRY Louis LinkedIn FERAUD Alexandre LinkedIn FISCHER Julien LinkedIn BOBEUF Jules LinkedIn SANTORO Thomas LinkedIn I/ Explore &amp;ldquo;La Toile&amp;rdquo;, our virtual exposition created in 48 hours This is our latest university project: &amp;ldquo;La Toile &amp;ldquo;, a virtual exhibition of digital images. We chose to represent this exhibition in the form of the Paris metro, with each room representing a metro stop. Our goal was to create this site in only 48 hours and we are proud to have successfully overcome this challenge!</description>
+    </item>
+    
+  </channel>
+</rss>

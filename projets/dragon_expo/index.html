@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <title>JAKOBOWSKI Aymeric</title>
+<link rel="shortcut icon" href="/images/logo_JAK.svg">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous" />
+<link rel="stylesheet" href="/css/style.css" />
+
+    </head>
+    <body><header>
+    <nav class="navbar" role="navigation">
+        <div class="container">
+            <div class="navbar-brand">
+                <a href="/" title="Accueil" class="navbar-item">
+                    <img class="logo" id="image_logo" src="/images/logo_JAK.svg" alt="Logo - Portfolio">
+                    <span class="logo">
+                        <h1 class="title is-4">Portfolio</h1>
+                    </span>
+                </a>
+                
+                <a href="https://github.com/AymericJak" class="navbar-item is-hidden-desktop" title="GitHub">
+                    <span class="icon"><i class='fab fa-github'></i></span>
+                </a>
+                
+                <a href="https://www.linkedin.com/in/aymeric-jakobowski" class="navbar-item is-hidden-desktop" title="Linkedin-fr">
+                    <span class="icon"><i class='fab fa-linkedin'></i></span>
+                </a>
+                
+                
+                <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                </a>
+            </div>
+            
+            <div class="navbar-menu">
+                <div class="navbar-start">
+                    <a href="/categories" class="navbar-item">Catégories</a>
+                    <a href="/certifications" class="navbar-item">Certifications</a>
+                    <a href="/competences" class="navbar-item">Compétences</a>
+                    <a href="/projets" class="navbar-item">Projets</a>
+                    
+                </div>
+                <div class="navbar-end">
+                    <a href="https://github.com/AymericJak" target="_blank" class="navbar-item is-hidden-touch" title="GitHub">
+                        <span class="icon"><i class='fab fa-github'></i></span>
+                    </a>
+                    <a href="https://www.linkedin.com/in/aymeric-jakobowski" target="_blank" class="navbar-item is-hidden-touch" title="Linkedin-fr">
+                        <span class="icon"><i class='fab fa-linkedin'></i></span>
+                    </a>
+                    
+                    <hr class="is-hidden-desktop burgerMenuHR">
+                    
+                    <a href="/" class="navbar-item" title="Page d&#39;accueil | FR">
+                        Français
+                    </a>
+                    
+                    <a href="/en/" class="navbar-item" title="Welcome page | EN">
+                        English
+                    </a>
+                    
+                </div>
+            </div>
+        </div>
+    </nav>
+    <script>
+        $(document).ready(function () {
+            $(".navbar-burger").click(function () {
+                $(".navbar-burger").toggleClass("is-active");
+                $(".navbar-menu").toggleClass("is-active");
+            })
+        })
+    </script>
+</header>
+<div id="content">
+<div class="scroller"></div>
+<div class="container">
+    <div class="section">
+        <div class="content">
+            <h1 class="title has-text-centered is-size-1-tablet is-family-title">Dragon Expo</h1>
+            <hr>
+            <div class="columns is-vcentered">
+                <div class="column">
+                    <figure class="image is-5by3">
+                        <img src="/images/projets/dragon_Expo.png" alt="Capture d&#39;écran de la page d&#39;accueil du site de la Dragon Expo">
+                    </figure>
+                </div>
+
+                <div class="column">
+                    <div class="box">
+    <p class="has-text-justified"><b>Date : </b>16/01/2022</p>
+    <p class="has-text-justified">
+        <b>Temps de lecture : </b>3  Minutes 
+    </p>
+    <hr class="ligne">
+    <p class="has-text-justified">
+        <b>Description : </b> Nous sommes spécialisé dans l&#39;événementiel. Pour éviter d&#39;avoir trop de concurrence, nous devons nous spécialiser dans un domaine particulier. Réalisation de fiche signalétique, personnas, site web, etc.
+    </p>
+    <hr class="ligne">
+    <p><b>Catégories du projet : </b></p>
+    <div class="columns is-centered is-multiline">
+    
+    <div class="column is-narrow">
+        
+        <span class="tag is-warning zoom">
+            <a class="has-text-black" href="/categories/projet-universitaire">
+                Projet universitaire
+            </a>
+        </span>
+        
+    </div>
+    
+    <div class="column is-narrow">
+        
+        <span class="tag is-link is-light zoom">
+            <a class="has-text-black" href="/categories/web">
+                Web
+            </a>
+        </span>
+        
+    </div>
+    
+</div>
+
+</div>
+                </div>
+            </div>
+            <h3 class="is-3 has-text-centered">
+                <b>Retrouvez le projet sur : </b>
+
+                
+                <a href="https://github.com/AymericJak/UnivProject-DragonExpo" target="_blank">
+                    <i class="fab fa-github"></i> GitHub
+                </a>
+                
+
+                
+
+                
+
+            </h3>
+            <div class="is-flex is-justify-content-center is-align-items-center">
+    <button class="share-button main">
+        <i class="fas fa-share-alt"></i>
+    </button>
+
+    <button class="share-button linkedin" onclick="shareOnLinkedIn()">
+        <i class="fab fa-linkedin-in"></i>
+    </button>
+
+    <button class="share-button twitter" onclick="shareOnTwitter()">
+        <i class="fab fa-twitter"></i>
+    </button>
+</div>
+
+<script src="/js/share-option.js"></script>
+            <hr>
+            <div class="contenuProjet">
+                <p>Voici le premier projet concret que j’ai réalisé en informatique. Dans ce projet, la création d’une entreprise d&rsquo;événementiel était de mise. Afin d’en améliorer sa communication, la réalisation d’un site web et de son design était nécessaire.</p>
+<h3 id="i-création-de-lentreprise">I/ Création de l&rsquo;entreprise</h3>
+<p>La première étape de ce projet consistait à réaliser un brainstorming pour en savoir plus sur le type d’événement que nous proposons.
+Une fois notre thème trouvé, en l&rsquo;occurrence ici : une exposition sur les dragons, nous avons réalisé différents personas afin de déterminer les potentielles cibles de notre entreprise.</p>
+<p>Par la suite, nous avons réalisé un questionnaire sur Google Form, pour identifier les besoins de nos futurs clients. [Ce questionnaire a été réalisé par une dizaine de personnes]</p>
+<h3 id="ii-graphisme">II/ Graphisme</h3>
+<p>Maintenant que la base précédente a été réalisée, nous avons pu réaliser le Webdesign de notre site / image de marque.
+Pour ce faire, nous avons réalisé une maquette grâce à l’outil Balsamiq.
+Divers documents ont aussi été réalisés tels que la charte graphique et la charte éditoriale.</p>
+<h3 id="iii-html-css">III/ HTML CSS</h3>
+<p>Dès lors que la maquette, ainsi que les éléments graphiques correspondant à notre image de marque ont été établis, la traduction en langage HTML-CSS a été possible. Nous avons également assuré le niveau qualitatif de notre code en réalisant diverses vérifications avec le site W3C.</p>
+<h3 id="iv-gestion-de-projet">IV/ Gestion de projet</h3>
+<p>Afin de préparer notre politique et stratégie commerciale, une étude de la concurrence est nécessaire. Pour ce faire, diverses analyses ont été réalisées :</p>
+<ul>
+<li>Le positionnement de notre entreprise</li>
+<li>Un tableau comparatif de nos principaux concurrents</li>
+<li>Une matrice FFOM de notre projet</li>
+</ul>
+<h3 class="has-text-danger-dark" id="v-bilan-critique">V/ Bilan critique</h3>
+<p>Une année à la suite de ce projet, plusieurs critiques peuvent être émises. Premièrement, l&rsquo;architecture du projet aurait pu t&rsquo;être plus adaptée. En effet, à partir de la racine, un projet source <code>src/</code> aurait pu t&rsquo;être créé. Le nom des dossiers plus cohérents. Les noms des images sans caractères spéciaux. En utilisant le camelCase.</p>
+<p>Architecture actuelle :</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>.
+</span></span><span style="display:flex;"><span>├── FAQ.html
+</span></span><span style="display:flex;"><span>├── Images
+</span></span><span style="display:flex;"><span>│   ├── Noustrouver.png
+</span></span><span style="display:flex;"><span>│   ├── boutique.png
+</span></span><span style="display:flex;"><span>│   ├── cadeau.png
+</span></span><span style="display:flex;"><span>│   ├── culture
+</span></span><span style="display:flex;"><span>│   │   ├── Apep.png
+</span></span><span style="display:flex;"><span>│   │   ├── Apollon.png
+</span></span><span style="display:flex;"><span>│   │   ├── Grand’Goule.png
+</span></span><span style="display:flex;"><span>│   │   ├── Ladon.png
+</span></span><span style="display:flex;"><span>│   │   ├── Léviathan.png
+</span></span><span style="display:flex;"><span>│   │   ├── L’hydre.png
+</span></span><span style="display:flex;"><span>│   │   ├── gravure_Tiamat.png
+</span></span><span style="display:flex;"><span>│   │   └── mušḫuššu.png
+</span></span><span style="display:flex;"><span>│   ├── culture_dragon.png
+</span></span><span style="display:flex;"><span>│   ├── faq.jpg
+</span></span><span style="display:flex;"><span>│   ├── imageFondDragon.jpg
+</span></span><span style="display:flex;"><span>│   ├── logo.png
+</span></span><span style="display:flex;"><span>│   └── porteDeVersaille.JPG
+</span></span><span style="display:flex;"><span>├── README.md
+</span></span><span style="display:flex;"><span>├── Styles
+</span></span><span style="display:flex;"><span>│   └── style.css
+</span></span><span style="display:flex;"><span>├── boutique.html
+</span></span><span style="display:flex;"><span>├── concours.html
+</span></span><span style="display:flex;"><span>├── culture.html
+</span></span><span style="display:flex;"><span>└── index.html
+</span></span></code></pre></div><p>Voici comment comment nous aurions pu la réaliser :</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>.
+</span></span><span style="display:flex;"><span>├── README.md
+</span></span><span style="display:flex;"><span>└── src
+</span></span><span style="display:flex;"><span>    ├── app
+</span></span><span style="display:flex;"><span>    │   ├── accueil
+</span></span><span style="display:flex;"><span>    │   │   ├── FAQ.html
+</span></span><span style="display:flex;"><span>    │   │   ├── boutique.html
+</span></span><span style="display:flex;"><span>    │   │   ├── concours.html
+</span></span><span style="display:flex;"><span>    │   │   └── culture.html
+</span></span><span style="display:flex;"><span>    │   └── index.html
+</span></span><span style="display:flex;"><span>    ├── images
+</span></span><span style="display:flex;"><span>    │   ├── accueil
+</span></span><span style="display:flex;"><span>    │   │   ├── nousTrouver.png
+</span></span><span style="display:flex;"><span>    │   │   ├── boutique.png
+</span></span><span style="display:flex;"><span>    │   │   ├── cadeau.png
+</span></span><span style="display:flex;"><span>    │   │   ├── cultureDragon.png
+</span></span><span style="display:flex;"><span>    │   │   ├── faq.jpg
+</span></span><span style="display:flex;"><span>    │   │   ├── imageFondDragon.jpg
+</span></span><span style="display:flex;"><span>    │   │   └── porteDeVersaille.JPG
+</span></span><span style="display:flex;"><span>    │   ├── culture
+</span></span><span style="display:flex;"><span>    │   │   ├── apep.png
+</span></span><span style="display:flex;"><span>    │   │   ├── apollon.png
+</span></span><span style="display:flex;"><span>    │   │   ├── grandGoule.png
+</span></span><span style="display:flex;"><span>    │   │   ├── Ladon.png
+</span></span><span style="display:flex;"><span>    │   │   ├── Leviathan.png
+</span></span><span style="display:flex;"><span>    │   │   ├── hydre.png
+</span></span><span style="display:flex;"><span>    │   │   ├── gravureTiamat.png
+</span></span><span style="display:flex;"><span>    │   │   └── mushussu.png
+</span></span><span style="display:flex;"><span>    │   └── logo
+</span></span><span style="display:flex;"><span>    │       └── logo.png
+</span></span><span style="display:flex;"><span>    └── styles
+</span></span><span style="display:flex;"><span>        └── style.css
+</span></span></code></pre></div><p>Maintenant que j&rsquo;ai des connaissances en Git, je me dis qu&rsquo;il aurait été bien plus simple de faire la mise en commun du code entre les membres du projets à l&rsquo;aide de cet outil de versionning.
+L&rsquo;ajout d&rsquo;un <code>README.md</code> aurait été également bénéfique pour expliquer le but de notre application, etc.</p>
+<p>Niveau design, le choix de la police d&rsquo;écriture, le choix des couleurs aurait pu être plus adapté pour l&rsquo;accessibilité [texte noir sur fond rouge peu lisible]</p>
+<p>Le formulaire en pied de page est inutilisable, une amélioration est possible en utilisant du Javascript</p>
+
+            </div>
+        </div>
+    </div>
+</div>
+<script src="/js/scrollbar-project.js"></script>
+
+        </div><footer class="footer">
+    <div class="container">
+        <div class="columns has-text-centered">
+            
+            <div class="column is-narrow">
+                <a href="/benevolat" class="">Bénévolat</a>
+            </div>
+            
+            <div class="column is-narrow">
+                <a href="/categories" class="">Catégories</a>
+            </div>
+            
+            <div class="column is-narrow">
+                <a href="/certifications" class="">Certifications</a>
+            </div>
+            
+            <div class="column is-narrow">
+                <a href="/competences" class="">Compétences</a>
+            </div>
+            
+            <div class="column is-narrow">
+                <a href="/projets" class="">Projets</a>
+            </div>
+            
+            <div class="column is-narrow">
+                <a href="/evenements" class="">Évènements</a>
+            </div>
+            
+        </div>
+        
+        <div class="columns has-text-centered">
+            
+            <div class="column is-narrow">
+                <a href="/" title="Page d&#39;accueil | FR">
+                    Français
+                </a>
+            </div>
+            
+            <div class="column is-narrow">
+                <a href="/en/" title="Welcome page | EN">
+                    English
+                </a>
+            </div>
+            
+        </div>
+        
+        
+        <div class="columns has-text-centered">
+            <div class="column is-narrow">
+                <a class="js-modal-trigger" data-target="mon-cv">
+                    Mon CV
+                </a>
+            </div>
+        </div>
+        
+        <div class="has-text-centered">
+            <p>Copyright © 2022 - 2023 | Tous droits réservés</p>
+            <p>Site hébergé sur GitHub</p>
+            <p><a href="/mentions-legales">Mentions légales</a></p>
+        </div>
+        
+        
+        
+        <div id="mon-cv" class="modal">
+            <div class="modal-background"></div>
+            
+            <div class="modal-content">
+                <p class="image">
+                    <img src="/images/a-propos-de/CV-JAKOBOWSKI-Aymeric-2025.png" alt="CV">
+                </p>
+            </div>
+            <button class="modal-close is-large" aria-label="close"></button>
+            
+            
+            <a class="has-text-white" href="/CV-JAKOBOWSKI-Aymeric-2025.pdf" download="CV_JAKOBOWSKI_Aymeric.pdf">
+                <button class="modal-content button is-link">
+                    Télécharger au format .pdf
+                </button>
+            </a>
+        </div>
+        
+    </div>
+</footer>
+<script src="/js/modal.js"></script>
+<script src="/js/skill-menu.js"></script></body>
+</html>

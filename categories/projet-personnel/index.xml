@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projet personnel on Portfolio</title>
+    <link>/categories/projet-personnel/</link>
+    <description>Recent content in Projet personnel on Portfolio</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-fr</language>
+    <lastBuildDate>Sun, 01 Oct 2023 09:13:57 +0200</lastBuildDate><atom:link href="/categories/projet-personnel/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Right Color</title>
+      <link>/projets/therightcolor/</link>
+      <pubDate>Sun, 01 Oct 2023 09:13:57 +0200</pubDate>
+      
+      <guid>/projets/therightcolor/</guid>
+      <description>I/ Réalisation de l&amp;rsquo;application avec Angular Pour commencer, faisons un petit point sur ce qu&amp;rsquo;est Angular. C&amp;rsquo;est un framework côté client basé sur le Typescript. La particularité de ce framework est son côté « SPA » pour Single Page Applications. Ainsi, notre application est sur une page web unique. Un but prime : éviter le chargement d&amp;rsquo;une nouvelle page pour renforcer l&amp;rsquo;expérience utilisateur.
+II/ Le but du jeu L&amp;rsquo;objectif est simple : avoir le meilleur score.</description>
+    </item>
+    
+  </channel>
+</rss>

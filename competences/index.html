@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <title>JAKOBOWSKI Aymeric</title>
+<link rel="shortcut icon" href="/images/logo_JAK.svg">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous" />
+<link rel="stylesheet" href="/css/style.css" />
+
+    </head>
+    <body><header>
+    <nav class="navbar" role="navigation">
+        <div class="container">
+            <div class="navbar-brand">
+                <a href="/" title="Accueil" class="navbar-item">
+                    <img class="logo" id="image_logo" src="/images/logo_JAK.svg" alt="Logo - Portfolio">
+                    <span class="logo">
+                        <h1 class="title is-4">Portfolio</h1>
+                    </span>
+                </a>
+                
+                <a href="https://github.com/AymericJak" class="navbar-item is-hidden-desktop" title="GitHub">
+                    <span class="icon"><i class='fab fa-github'></i></span>
+                </a>
+                
+                <a href="https://www.linkedin.com/in/aymeric-jakobowski" class="navbar-item is-hidden-desktop" title="Linkedin-fr">
+                    <span class="icon"><i class='fab fa-linkedin'></i></span>
+                </a>
+                
+                
+                <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                </a>
+            </div>
+            
+            <div class="navbar-menu">
+                <div class="navbar-start">
+                    <a href="/categories" class="navbar-item">Catégories</a>
+                    <a href="/certifications" class="navbar-item">Certifications</a>
+                    <a href="/competences" class="navbar-item">Compétences</a>
+                    <a href="/projets" class="navbar-item">Projets</a>
+                    
+                </div>
+                <div class="navbar-end">
+                    <a href="https://github.com/AymericJak" target="_blank" class="navbar-item is-hidden-touch" title="GitHub">
+                        <span class="icon"><i class='fab fa-github'></i></span>
+                    </a>
+                    <a href="https://www.linkedin.com/in/aymeric-jakobowski" target="_blank" class="navbar-item is-hidden-touch" title="Linkedin-fr">
+                        <span class="icon"><i class='fab fa-linkedin'></i></span>
+                    </a>
+                    
+                    <hr class="is-hidden-desktop burgerMenuHR">
+                    
+                    <a href="/" class="navbar-item" title="Page d&#39;accueil | FR">
+                        Français
+                    </a>
+                    
+                    <a href="/en/" class="navbar-item" title="Welcome page | EN">
+                        English
+                    </a>
+                    
+                </div>
+            </div>
+        </div>
+    </nav>
+    <script>
+        $(document).ready(function () {
+            $(".navbar-burger").click(function () {
+                $(".navbar-burger").toggleClass("is-active");
+                $(".navbar-menu").toggleClass("is-active");
+            })
+        })
+    </script>
+</header>
+<div id="content">
+
+<div class="container">
+    <div class="tabs-container">
+        <div class="tabs-button-container">
+            <button data-content="1" class="tab-button active-tab">
+                Langages
+            </button>
+            <button data-content="2" class="tab-button">
+                Outils
+            </button>
+            <button data-content="3" class="tab-button">
+                Compétences
+            </button>
+        </div>
+
+        <div data-content="1" class="tab-content active-content">
+            <div class="tile is-ancestor">
+    <div class="tile is-parent">
+        <div class="tile is-child box">
+            <h2 class="title is-3">Web</h2>
+
+
+            <div class="skill-box skills-box-compPage">
+                <div class="skills php">PHP - 65%</div>
+            </div>
+
+            <div class="skill-box skills-box-compPage">
+                <div class="skills js">JavaScript - 55%</div>
+            </div>
+
+            <div class="skill-box skills-box-compPage">
+                <div class="skills js">Typescript - 55%</div>
+            </div>
+
+            <hr>
+
+            <div class="skill-box skills-box-compPage">
+                <div class="skills laravel">Laravel - 65%</div>
+            </div>
+
+            <div class="skill-box skills-box-compPage">
+                <div class="skills symfony">Symfony - 45%</div>
+            </div>
+
+            <div class="skill-box skills-box-compPage">
+                <div class="skills flask">Flask - 60%</div>
+            </div>
+
+            <div class="skill-box skills-box-compPage">
+                <div class="skills hugo">HUGO - 70%</div>
+            </div>
+            <hr>
+
+            <div class="skill-box skills-box-compPage">
+                <div class="skills html">HTML - 85%</div>
+            </div>
+
+            <div class="skill-box skills-box-compPage">
+                <div class="skills css">CSS - 80%</div>
+            </div>
+
+        </div>
+
+
+    </div>
+    <div class="tile is-vertical is-parent">
+        <div class="tile is-child box">
+            <h2 class="title is-3">Données</h2>
+
+            <div class="skill-box skills-box-compPage">
+                <div class="skills postgres">SQL | PostgreSQL - 70%</div>
+            </div>
+
+        </div>
+        <div class="tile is-child box">
+            <h2 class="title is-3">Langages</h2>
+
+            <div class="skill-box skills-box-compPage">
+                <div class="skills python">Python - 75%</div>
+            </div>
+
+            <div class="skill-box skills-box-compPage">
+                <div class="skills java">JAVA - 60%</div>
+            </div>
+
+
+        </div>
+    </div>
+</div>
+
+        </div>
+        <div data-content="2" class="tab-content">
+            <nav class="level">
+    <div class="level-item has-text-centered">
+        <div>
+            <figure class="image is-128x128">
+                <img src="/images/competences/IDE/pycharm-icon.png" alt="pycharm icon">
+            </figure>
+            <br>
+            <p class="heading">PyCharm</p>
+        </div>
+    </div>
+
+    <div class="level-item has-text-centered">
+        <div>
+            <figure class="image is-128x128">
+                <img src="/images/competences/IDE/phpstorm-icon.svg" alt="phpstorm icon">
+            </figure>
+            <br>
+            <p class="heading">PhpStorm</p>
+        </div>
+    </div>
+
+    <div class="level-item has-text-centered">
+        <div>
+            <figure class="image is-128x128">
+                <img src="/images/competences/IDE/webstorm-icon.svg" alt="webstorm icon">
+            </figure>
+            <br>
+            <p class="heading">WebStorm</p>
+        </div>
+    </div>
+
+    <div class="level-item has-text-centered">
+        <div>
+            <figure class="image is-128x128">
+                <img src="/images/competences/IDE/intellij-icon.svg" alt="intellij icon">
+            </figure>
+            <br>
+            <p class="heading">IntelliJ IDEA</p>
+        </div>
+    </div>
+</nav>
+
+
+<nav class="level">
+    <div class="level-item has-text-centered">
+        <div>
+            <figure class="image is-128x128">
+                <img src="/images/competences/IDE/visual-studio-code.svg" alt="visual studio code icon">
+            </figure>
+            <br>
+            <p class="heading">VSCode</p>
+        </div>
+    </div>
+
+    <div class="level-item has-text-centered">
+        <div>
+            <figure class="image is-128x128">
+                <img src="/images/competences/IDE/android-studio-icon.svg" alt="android studio icon">
+            </figure>
+            <br>
+            <p class="heading">Android Studio</p>
+        </div>
+    </div>
+
+    <div class="level-item has-text-centered">
+        <div>
+            <figure class="image is-128x128">
+                <img src="/images/competences/IDE/eclipse-icon.svg" alt="eclipse icon">
+            </figure>
+            <br>
+            <p class="heading">Eclipse</p>
+        </div>
+    </div>
+</nav>
+
+<nav class="level">
+    <div class="level-item has-text-centered">
+        <div>
+            <figure class="image is-128x128">
+                <img src="/images/competences/IDE/github-icon.svg" alt="github icon">
+            </figure>
+            <br>
+            <p class="heading">GitHub</p>
+        </div>
+    </div>
+
+    <div class="level-item has-text-centered">
+        <div>
+            <figure class="image is-128x128">
+                <img src="/images/competences/IDE/gitlab-icon.svg" alt="gitlab icon">
+            </figure>
+            <br>
+            <p class="heading">GitLab</p>
+        </div>
+    </div>
+</nav>
+        </div>
+        <div data-content="3" class="tab-content">
+            <nav class="level">
+
+    <div class="level-item has-text-centered">
+        <div>
+            <p class="subtitle">Scrum</p>
+        </div>
+    </div>
+
+    <div class="level-item has-text-centered">
+        <div>
+            <h2 class="title">AGILITÉ</h2>
+        </div>
+    </div>
+
+    <div class="level-item has-text-centered">
+        <div>
+            <p class="subtitle">Kanban</p>
+        </div>
+    </div>
+
+</nav>
+
+<hr>
+
+<nav class="level">
+    <div class="level-item has-text-centered">
+        <div>
+            <figure class="image is-128x128">
+                <img src="/images/competences/SoftSkills/poing.png" alt="">
+            </figure>
+            <br>
+            <p class="heading">Autonomie</p>
+        </div>
+    </div>
+
+    <div class="level-item has-text-centered">
+        <div>
+            <figure class="image is-128x128">
+                <img src="/images/competences/SoftSkills/engrenages.png" alt="">
+            </figure>
+            <br>
+            <p class="heading">Capacité d'adaptation</p>
+        </div>
+    </div>
+
+    <div class="level-item has-text-centered">
+        <div>
+            <figure class="image is-128x128">
+                <img src="/images/competences/SoftSkills/loupe.png" alt="">
+            </figure>
+            <br>
+            <p class="heading">Curiosité</p>
+        </div>
+    </div>
+</nav>
+
+        </div>
+    </div>
+</div>
+
+
+        </div><footer class="footer">
+    <div class="container">
+        <div class="columns has-text-centered">
+            
+            <div class="column is-narrow">
+                <a href="/benevolat" class="">Bénévolat</a>
+            </div>
+            
+            <div class="column is-narrow">
+                <a href="/categories" class="">Catégories</a>
+            </div>
+            
+            <div class="column is-narrow">
+                <a href="/certifications" class="">Certifications</a>
+            </div>
+            
+            <div class="column is-narrow">
+                <a href="/competences" class="">Compétences</a>
+            </div>
+            
+            <div class="column is-narrow">
+                <a href="/projets" class="">Projets</a>
+            </div>
+            
+            <div class="column is-narrow">
+                <a href="/evenements" class="">Évènements</a>
+            </div>
+            
+        </div>
+        
+        <div class="columns has-text-centered">
+            
+            <div class="column is-narrow">
+                <a href="/" title="Page d&#39;accueil | FR">
+                    Français
+                </a>
+            </div>
+            
+            <div class="column is-narrow">
+                <a href="/en/" title="Welcome page | EN">
+                    English
+                </a>
+            </div>
+            
+        </div>
+        
+        
+        <div class="columns has-text-centered">
+            <div class="column is-narrow">
+                <a class="js-modal-trigger" data-target="mon-cv">
+                    Mon CV
+                </a>
+            </div>
+        </div>
+        
+        <div class="has-text-centered">
+            <p>Copyright © 2022 - 2023 | Tous droits réservés</p>
+            <p>Site hébergé sur GitHub</p>
+            <p><a href="/mentions-legales">Mentions légales</a></p>
+        </div>
+        
+        
+        
+        <div id="mon-cv" class="modal">
+            <div class="modal-background"></div>
+            
+            <div class="modal-content">
+                <p class="image">
+                    <img src="/images/a-propos-de/CV-JAKOBOWSKI-Aymeric-2025.png" alt="CV">
+                </p>
+            </div>
+            <button class="modal-close is-large" aria-label="close"></button>
+            
+            
+            <a class="has-text-white" href="/CV-JAKOBOWSKI-Aymeric-2025.pdf" download="CV_JAKOBOWSKI_Aymeric.pdf">
+                <button class="modal-content button is-link">
+                    Télécharger au format .pdf
+                </button>
+            </a>
+        </div>
+        
+    </div>
+</footer>
+<script src="/js/modal.js"></script>
+<script src="/js/skill-menu.js"></script></body>
+</html>

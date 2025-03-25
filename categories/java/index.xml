@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>JAVA on Portfolio</title>
+    <link>/categories/java/</link>
+    <description>Recent content in JAVA on Portfolio</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-fr</language>
+    <lastBuildDate>Sun, 30 Oct 2022 17:22:00 +0200</lastBuildDate><atom:link href="/categories/java/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Projet fractales</title>
+      <link>/projets/projetfractales/</link>
+      <pubDate>Sun, 30 Oct 2022 17:22:00 +0200</pubDate>
+      
+      <guid>/projets/projetfractales/</guid>
+      <description>Membres du projets : BOBEUF Jules LinkedIn SANTORO Thomas LinkedIn I/ Les nombres complexes Dans cette section, il nous est demandé d’implanter une classe permettant de réaliser des opérations classiques sur les nombres complexes. Cette classe doit implémenter l’interface IComplex qui nous est fournie. Une classe de test nous est par ailleurs proposée afin de vérifier que notre implantation est correcte.
+II/ Suites complexes et fractales Il est possible de générer de jolies fractales en considérant des suites de nombres complexes.</description>
+    </item>
+    
+    <item>
+      <title>Application Gestion Ventes</title>
+      <link>/projets/appli_gestion_vente/</link>
+      <pubDate>Fri, 17 Jun 2022 19:12:00 +0200</pubDate>
+      
+      <guid>/projets/appli_gestion_vente/</guid>
+      <description>Dans ce projet a été réalisée une application de gestion de ventes
+Partie I Dans cette première partie, la réalisation d’une application de gestion de ventes sans interface graphique est de mise. Celle-ci va permettre de mettre en oeuvre toutes nos compétences apprises en Java.
+Java Nous avons donc dû réaliser différents paquetages :
+Le paquetage article Celui-ci va permettre la gestion des articles présents dans notre application.
+Le paquetage client Celui-ci va permettre la gestion des clients présents dans notre application.</description>
+    </item>
+    
+  </channel>
+</rss>

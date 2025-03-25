@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Laravel on Portfolio</title>
+    <link>/categories/laravel/</link>
+    <description>Recent content in Laravel on Portfolio</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-fr</language>
+    <lastBuildDate>Sun, 08 Jan 2023 10:22:26 +0100</lastBuildDate><atom:link href="/categories/laravel/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>La Toile</title>
+      <link>/projets/latoile/</link>
+      <pubDate>Sun, 08 Jan 2023 10:22:26 +0100</pubDate>
+      
+      <guid>/projets/latoile/</guid>
+      <description>Membres du projets : AMADOR Clara LinkedIn LEGRY Louis LinkedIn FERAUD Alexandre LinkedIn FISCHER Julien LinkedIn BOBEUF Jules LinkedIn SANTORO Thomas LinkedIn I/ Découvrez &amp;ldquo;La Toile&amp;rdquo;, notre exposition virtuelle réalisée en 48 heures Voici notre dernier projet universitaire : &amp;ldquo;La Toile&amp;rdquo;, une exposition virtuelle d&amp;rsquo;images numériques. Nous avons choisi de représenter cette exposition sous la forme du métro parisien, avec chaque salle représentant un arrêt de métro. Notre objectif était de créer ce site en seulement 48 heures et nous sommes fiers d&amp;rsquo;avoir relevé ce défi !</description>
+    </item>
+    
+  </channel>
+</rss>

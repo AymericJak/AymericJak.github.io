@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Page d&#39;accueil | FR on Portfolio</title>
+    <link>/</link>
+    <description>Recent content in Page d&#39;accueil | FR on Portfolio</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-fr</language>
+    <lastBuildDate>Sat, 01 Mar 2025 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>La Tournée de la MIAGE</title>
+      <link>/projets/latourneedelamiage/</link>
+      <pubDate>Sat, 01 Mar 2025 00:00:00 +0000</pubDate>
+      
+      <guid>/projets/latourneedelamiage/</guid>
+      <description>Membres du projets : BOUTAGUIA Tariq LinkedIn LOGIER Elsa LinkedIn I/ Le but du projet L&amp;rsquo;objectif était de réaliser un projet de communication en lien avec notre formation. De là est née La Tournée de la MIAGE.
+II/ Public visé Notre public cible est :
+BUT 2 / BUT 3 informatique Licence 2 / Licence 3 informatique Pour les étudiants de l&amp;rsquo;IUT de Lens et l&amp;rsquo;Université de Lille.
+III/ Évènements réalisés Nous avons réalisé 3 événements distincts :</description>
+    </item>
+    
+    <item>
+      <title>The Right Color</title>
+      <link>/projets/therightcolor/</link>
+      <pubDate>Sun, 01 Oct 2023 09:13:57 +0200</pubDate>
+      
+      <guid>/projets/therightcolor/</guid>
+      <description>I/ Réalisation de l&amp;rsquo;application avec Angular Pour commencer, faisons un petit point sur ce qu&amp;rsquo;est Angular. C&amp;rsquo;est un framework côté client basé sur le Typescript. La particularité de ce framework est son côté « SPA » pour Single Page Applications. Ainsi, notre application est sur une page web unique. Un but prime : éviter le chargement d&amp;rsquo;une nouvelle page pour renforcer l&amp;rsquo;expérience utilisateur.
+II/ Le but du jeu L&amp;rsquo;objectif est simple : avoir le meilleur score.</description>
+    </item>
+    
+    <item>
+      <title>La Toile</title>
+      <link>/projets/latoile/</link>
+      <pubDate>Sun, 08 Jan 2023 10:22:26 +0100</pubDate>
+      
+      <guid>/projets/latoile/</guid>
+      <description>Membres du projets : AMADOR Clara LinkedIn LEGRY Louis LinkedIn FERAUD Alexandre LinkedIn FISCHER Julien LinkedIn BOBEUF Jules LinkedIn SANTORO Thomas LinkedIn I/ Découvrez &amp;ldquo;La Toile&amp;rdquo;, notre exposition virtuelle réalisée en 48 heures Voici notre dernier projet universitaire : &amp;ldquo;La Toile&amp;rdquo;, une exposition virtuelle d&amp;rsquo;images numériques. Nous avons choisi de représenter cette exposition sous la forme du métro parisien, avec chaque salle représentant un arrêt de métro. Notre objectif était de créer ce site en seulement 48 heures et nous sommes fiers d&amp;rsquo;avoir relevé ce défi !</description>
+    </item>
+    
+    <item>
+      <title>Application architecture à trois niveaux</title>
+      <link>/projets/projetmsi/</link>
+      <pubDate>Mon, 07 Nov 2022 17:22:00 +0200</pubDate>
+      
+      <guid>/projets/projetmsi/</guid>
+      <description>Membres du projets : BOBEUF Jules LinkedIn SANTORO Thomas LinkedIn I/ Réalisation de l&amp;rsquo;application avec Flask L&amp;rsquo;application a donc été réalisée avec Flask, un micro framework pour le développement web en python.
+Nous allons réaliser une application web qui repose sur une architecture à trois niveaux.
+L&amp;rsquo;architecture à deux niveaux (aussi appelée architecture 2-tier) caractérise les systèmes clients/serveurs dans lesquels le client demande une ressource et le serveur la lui fournit directement.</description>
+    </item>
+    
+    <item>
+      <title>Projet fractales</title>
+      <link>/projets/projetfractales/</link>
+      <pubDate>Sun, 30 Oct 2022 17:22:00 +0200</pubDate>
+      
+      <guid>/projets/projetfractales/</guid>
+      <description>Membres du projets : BOBEUF Jules LinkedIn SANTORO Thomas LinkedIn I/ Les nombres complexes Dans cette section, il nous est demandé d’implanter une classe permettant de réaliser des opérations classiques sur les nombres complexes. Cette classe doit implémenter l’interface IComplex qui nous est fournie. Une classe de test nous est par ailleurs proposée afin de vérifier que notre implantation est correcte.
+II/ Suites complexes et fractales Il est possible de générer de jolies fractales en considérant des suites de nombres complexes.</description>
+    </item>
+    
+    <item>
+      <title>Application Gestion Ventes</title>
+      <link>/projets/appli_gestion_vente/</link>
+      <pubDate>Fri, 17 Jun 2022 19:12:00 +0200</pubDate>
+      
+      <guid>/projets/appli_gestion_vente/</guid>
+      <description>Dans ce projet a été réalisée une application de gestion de ventes
+Partie I Dans cette première partie, la réalisation d’une application de gestion de ventes sans interface graphique est de mise. Celle-ci va permettre de mettre en oeuvre toutes nos compétences apprises en Java.
+Java Nous avons donc dû réaliser différents paquetages :
+Le paquetage article Celui-ci va permettre la gestion des articles présents dans notre application.
+Le paquetage client Celui-ci va permettre la gestion des clients présents dans notre application.</description>
+    </item>
+    
+    <item>
+      <title>Dragon Expo</title>
+      <link>/projets/dragon_expo/</link>
+      <pubDate>Sun, 16 Jan 2022 19:00:00 +0200</pubDate>
+      
+      <guid>/projets/dragon_expo/</guid>
+      <description>Voici le premier projet concret que j’ai réalisé en informatique. Dans ce projet, la création d’une entreprise d&amp;rsquo;événementiel était de mise. Afin d’en améliorer sa communication, la réalisation d’un site web et de son design était nécessaire.
+I/ Création de l&amp;rsquo;entreprise La première étape de ce projet consistait à réaliser un brainstorming pour en savoir plus sur le type d’événement que nous proposons. Une fois notre thème trouvé, en l&amp;rsquo;occurrence ici : une exposition sur les dragons, nous avons réalisé différents personas afin de déterminer les potentielles cibles de notre entreprise.</description>
+    </item>
+    
+    <item>
+      <title>24H INFO</title>
+      <link>/evenements/24-heures-info-2023/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/evenements/24-heures-info-2023/</guid>
+      <description>L&amp;rsquo;édition 2023 des 24 heures de l&amp;rsquo;info s&amp;rsquo;est déroulée à Bourg-en-Bresse, et a été organisée par l’IUT Lyon 1 ! Nous étions 23 équipes en compétition.
+Membres de l&amp;rsquo;équipe : BOBEUF Jules LinkedIn FIEVET Arnaud LinkedIn I/ Comment ai-je découvert cette compétition ? Durant mon BUT Informatique à l&amp;rsquo;IUT de Lens, notre enseignant de développement web nous a parlé de cette compétition.
+Cette année, j&amp;rsquo;ai aussi eu l&amp;rsquo;occasion de participer au SWERC, une expérience vraiment mémorable !</description>
+    </item>
+    
+    <item>
+      <title>Apprendre Symfony 5 par la création d&#39;un site e-commerce</title>
+      <link>/certifications/udemy-symfony/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/certifications/udemy-symfony/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Certification Pix</title>
+      <link>/certifications/pix/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/certifications/pix/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>La Fresque du Climat</title>
+      <link>/benevolat/la-fresque-du-climat/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/benevolat/la-fresque-du-climat/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mentions légales : </title>
+      <link>/mentions-legales/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/mentions-legales/</guid>
+      <description>Conformément aux dispositions de la loi n° 2004-575 du 21 juin 2004 pour la confiance en l&amp;rsquo;économie numérique, il est précisé aux utilisateurs du site Portfolio l&amp;rsquo;identité des différents intervenants dans le cadre de sa réalisation et de son suivi.
+Edition du site Le présent site, accessible à l’URL aymericjak.github.io (le « Portfolio »), est édité par :
+Aymeric JAKOBOWSKI, résidant 9 rue Angela Davis 62300 LENS, de nationalité Française (France), né(e) le 13/09/2003,</description>
+    </item>
+    
+    <item>
+      <title>Mes certifications : </title>
+      <link>/certifications/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/certifications/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mes compétences : </title>
+      <link>/competences/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/competences/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SWERC</title>
+      <link>/evenements/swerc-2023/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/evenements/swerc-2023/</guid>
+      <description>L&amp;rsquo;édition 2023 du SWERC s&amp;rsquo;est déroulée à Milan en Italie ! Nous étions 120 équipes en compétition.
+Membres de l&amp;rsquo;équipe : FALQUE Thibault (coach) LinkedIn BOBEUF Jules LinkedIn FACON Nicolas LinkedIn I/ Comment ai-je découvert cette compétition ? Durant mon BUT Informatique à l&amp;rsquo;IUT de Lens, il y avait de manière ponctuelle des SAÉ (Situation d&amp;rsquo;Apprentissage et d&amp;rsquo;Évaluation). Au semestre 3, notre enseignant a décidé de réaliser une petite compétition d&amp;rsquo;algorithmie entre les différents étudiants de la promotion.</description>
+    </item>
+    
+  </channel>
+</rss>

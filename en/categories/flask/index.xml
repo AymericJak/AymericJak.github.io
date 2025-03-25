@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Flask on Portfolio</title>
+    <link>/en/categories/flask/</link>
+    <description>Recent content in Flask on Portfolio</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-fr</language>
+    <lastBuildDate>Mon, 07 Nov 2022 17:22:00 +0200</lastBuildDate><atom:link href="/en/categories/flask/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Three-tier architecture application</title>
+      <link>/en/projets/projetmsi/</link>
+      <pubDate>Mon, 07 Nov 2022 17:22:00 +0200</pubDate>
+      
+      <guid>/en/projets/projetmsi/</guid>
+      <description>Project members : BOBEUF Jules LinkedIn SANTORO Thomas LinkedIn I/ Implementation of the application using Flask So, the application was made with Flask, a micro framework for web development in Python.
+We will build a web application based on a three-tier architecture.
+The two-tier architecture characterises client/server systems in which the client requests a resource and the server provides it directly. This means that the server does not call on another application to provide the service.</description>
+    </item>
+    
+  </channel>
+</rss>

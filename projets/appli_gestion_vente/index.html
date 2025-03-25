@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <title>JAKOBOWSKI Aymeric</title>
+<link rel="shortcut icon" href="/images/logo_JAK.svg">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous" />
+<link rel="stylesheet" href="/css/style.css" />
+
+    </head>
+    <body><header>
+    <nav class="navbar" role="navigation">
+        <div class="container">
+            <div class="navbar-brand">
+                <a href="/" title="Accueil" class="navbar-item">
+                    <img class="logo" id="image_logo" src="/images/logo_JAK.svg" alt="Logo - Portfolio">
+                    <span class="logo">
+                        <h1 class="title is-4">Portfolio</h1>
+                    </span>
+                </a>
+                
+                <a href="https://github.com/AymericJak" class="navbar-item is-hidden-desktop" title="GitHub">
+                    <span class="icon"><i class='fab fa-github'></i></span>
+                </a>
+                
+                <a href="https://www.linkedin.com/in/aymeric-jakobowski" class="navbar-item is-hidden-desktop" title="Linkedin-fr">
+                    <span class="icon"><i class='fab fa-linkedin'></i></span>
+                </a>
+                
+                
+                <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                </a>
+            </div>
+            
+            <div class="navbar-menu">
+                <div class="navbar-start">
+                    <a href="/categories" class="navbar-item">Catégories</a>
+                    <a href="/certifications" class="navbar-item">Certifications</a>
+                    <a href="/competences" class="navbar-item">Compétences</a>
+                    <a href="/projets" class="navbar-item">Projets</a>
+                    
+                </div>
+                <div class="navbar-end">
+                    <a href="https://github.com/AymericJak" target="_blank" class="navbar-item is-hidden-touch" title="GitHub">
+                        <span class="icon"><i class='fab fa-github'></i></span>
+                    </a>
+                    <a href="https://www.linkedin.com/in/aymeric-jakobowski" target="_blank" class="navbar-item is-hidden-touch" title="Linkedin-fr">
+                        <span class="icon"><i class='fab fa-linkedin'></i></span>
+                    </a>
+                    
+                    <hr class="is-hidden-desktop burgerMenuHR">
+                    
+                    <a href="/" class="navbar-item" title="Page d&#39;accueil | FR">
+                        Français
+                    </a>
+                    
+                    <a href="/en/" class="navbar-item" title="Welcome page | EN">
+                        English
+                    </a>
+                    
+                </div>
+            </div>
+        </div>
+    </nav>
+    <script>
+        $(document).ready(function () {
+            $(".navbar-burger").click(function () {
+                $(".navbar-burger").toggleClass("is-active");
+                $(".navbar-menu").toggleClass("is-active");
+            })
+        })
+    </script>
+</header>
+<div id="content">
+<div class="scroller"></div>
+<div class="container">
+    <div class="section">
+        <div class="content">
+            <h1 class="title has-text-centered is-size-1-tablet is-family-title">Application Gestion Ventes</h1>
+            <hr>
+            <div class="columns is-vcentered">
+                <div class="column">
+                    <figure class="image is-5by3">
+                        <img src="/images/projets/gestionVentesVignette.png" alt="Image tirée du flyer de notre animalerie Nékléo fictive">
+                    </figure>
+                </div>
+
+                <div class="column">
+                    <div class="box">
+    <p class="has-text-justified"><b>Date : </b>17/06/2022</p>
+    <p class="has-text-justified">
+        <b>Temps de lecture : </b>2  Minutes 
+    </p>
+    <hr class="ligne">
+    <p class="has-text-justified">
+        <b>Description : </b> L&#39;objectif général est la réalisation d&#39;une application développée en Java afin de permettre à une entreprise de ventes d&#39;automatiser la gestion de ses commandes.
+    </p>
+    <hr class="ligne">
+    <p><b>Catégories du projet : </b></p>
+    <div class="columns is-centered is-multiline">
+    
+    <div class="column is-narrow">
+        
+        <span class="tag is-warning zoom">
+            <a class="has-text-black" href="/categories/projet-universitaire">
+                Projet universitaire
+            </a>
+        </span>
+        
+    </div>
+    
+    <div class="column is-narrow">
+        
+        <span class="tag is-link is-light zoom">
+            <a class="has-text-black" href="/categories/java">
+                JAVA
+            </a>
+        </span>
+        
+    </div>
+    
+</div>
+
+</div>
+                </div>
+            </div>
+            <h3 class="is-3 has-text-centered">
+                <b>Retrouvez le projet sur : </b>
+
+                
+                <a href="https://github.com/AymericJak/UnivProject-ApplicationGestionVentes" target="_blank">
+                    <i class="fab fa-github"></i> GitHub
+                </a>
+                
+
+                
+
+                
+
+            </h3>
+            <div class="is-flex is-justify-content-center is-align-items-center">
+    <button class="share-button main">
+        <i class="fas fa-share-alt"></i>
+    </button>
+
+    <button class="share-button linkedin" onclick="shareOnLinkedIn()">
+        <i class="fab fa-linkedin-in"></i>
+    </button>
+
+    <button class="share-button twitter" onclick="shareOnTwitter()">
+        <i class="fab fa-twitter"></i>
+    </button>
+</div>
+
+<script src="/js/share-option.js"></script>
+            <hr>
+            <div class="contenuProjet">
+                <p>Dans ce projet a été réalisée une application de gestion de ventes</p>
+<h2 id="partie-i">Partie I</h2>
+<p>Dans cette première partie, la réalisation d’une application de gestion de ventes sans interface graphique est de mise. Celle-ci va permettre de mettre en oeuvre toutes nos compétences apprises en Java.</p>
+<ol>
+<li>
+<h4 id="java">Java</h4>
+</li>
+</ol>
+<p>Nous avons donc dû réaliser différents paquetages :</p>
+<ul>
+<li>
+<p>Le paquetage article
+Celui-ci va permettre la gestion des articles présents dans notre application.</p>
+</li>
+<li>
+<p>Le paquetage client
+Celui-ci va permettre la gestion des clients présents dans notre application.</p>
+</li>
+<li>
+<p>Le paquetage commande
+Celui-ci va permettre la gestion des commandes réalisées dans notre application.</p>
+</li>
+<li>
+<p>Le paquetage gestionnaire
+Celui-ci va permettre la gestion dans l’application des différents traitements à travers des menus textuels.</p>
+</li>
+<li>
+<p>Le paquetage test
+Celui-ci va permettre d’effectuer des tests sommaires et simples sur les classes que l’on a programmées.</p>
+</li>
+<li>
+<p>Le paquetage principal
+Celui-ci va contenir notre classe principale et permettre de lancer le programme général de notre application.</p>
+</li>
+</ul>
+<ol start="2">
+<li>
+<h4 id="gestion-de-projet">Gestion de projet</h4>
+</li>
+</ol>
+<p>Nous avons dans cette partie choisi notre type d’enseigne de ventes : la vente de biens animaliers.
+Divers documents ont été réalisés :</p>
+<ul>
+<li>Tableau QQOQCPC</li>
+<li>Note de cadrage</li>
+<li>Un tableau de répartition des tâches ainsi que son diagramme de Gantt</li>
+</ul>
+<h2 id="partie-ii">Partie II</h2>
+<p>Dans cette seconde partie, nous avons considérablement amélioré la qualité de notre projet.</p>
+<ol>
+<li>
+<h4 id="java-1">JAVA</h4>
+</li>
+</ol>
+<p>Nous avons tout d’abord ajouté la gestion de véhicules à notre application.
+Pour ce faire, nous sommes passés par Modelio afin de réaliser un diagramme de classe UML.</p>
+<ol start="2">
+<li>
+<h4 id="qualité-développement">Qualité développement</h4>
+</li>
+</ol>
+<p>Ensuite, nous sommes revenus sur notre code réalisé à la première partie pour réaliser de vrais tests unitaires. Pour ce faire, nous avons utilisé diverses librairies :</p>
+<ul>
+<li>Junit 5</li>
+<li>Mockito</li>
+<li>etc.</li>
+</ul>
+<p>Ainsi, pour chaque classe réalisée dans le projet, nous avons réalisé un ensemble de tests unitaire avec un taux de recouvrement supérieur à 80 %.</p>
+<ol start="3">
+<li>
+<h4 id="interface-homme-machine">Interface Homme Machine</h4>
+</li>
+</ol>
+<p>Pour terminer, nous avons dû adapter notre code pour intégrer une interface graphique.
+Pour l’implémentation d’une interface graphique, nous avons utilisé JavaFX.
+Un ensemble de vues et de contrôleurs ont été réalisés.</p>
+
+            </div>
+        </div>
+    </div>
+</div>
+<script src="/js/scrollbar-project.js"></script>
+
+        </div><footer class="footer">
+    <div class="container">
+        <div class="columns has-text-centered">
+            
+            <div class="column is-narrow">
+                <a href="/benevolat" class="">Bénévolat</a>
+            </div>
+            
+            <div class="column is-narrow">
+                <a href="/categories" class="">Catégories</a>
+            </div>
+            
+            <div class="column is-narrow">
+                <a href="/certifications" class="">Certifications</a>
+            </div>
+            
+            <div class="column is-narrow">
+                <a href="/competences" class="">Compétences</a>
+            </div>
+            
+            <div class="column is-narrow">
+                <a href="/projets" class="">Projets</a>
+            </div>
+            
+            <div class="column is-narrow">
+                <a href="/evenements" class="">Évènements</a>
+            </div>
+            
+        </div>
+        
+        <div class="columns has-text-centered">
+            
+            <div class="column is-narrow">
+                <a href="/" title="Page d&#39;accueil | FR">
+                    Français
+                </a>
+            </div>
+            
+            <div class="column is-narrow">
+                <a href="/en/" title="Welcome page | EN">
+                    English
+                </a>
+            </div>
+            
+        </div>
+        
+        
+        <div class="columns has-text-centered">
+            <div class="column is-narrow">
+                <a class="js-modal-trigger" data-target="mon-cv">
+                    Mon CV
+                </a>
+            </div>
+        </div>
+        
+        <div class="has-text-centered">
+            <p>Copyright © 2022 - 2023 | Tous droits réservés</p>
+            <p>Site hébergé sur GitHub</p>
+            <p><a href="/mentions-legales">Mentions légales</a></p>
+        </div>
+        
+        
+        
+        <div id="mon-cv" class="modal">
+            <div class="modal-background"></div>
+            
+            <div class="modal-content">
+                <p class="image">
+                    <img src="/images/a-propos-de/CV-JAKOBOWSKI-Aymeric-2025.png" alt="CV">
+                </p>
+            </div>
+            <button class="modal-close is-large" aria-label="close"></button>
+            
+            
+            <a class="has-text-white" href="/CV-JAKOBOWSKI-Aymeric-2025.pdf" download="CV_JAKOBOWSKI_Aymeric.pdf">
+                <button class="modal-content button is-link">
+                    Télécharger au format .pdf
+                </button>
+            </a>
+        </div>
+        
+    </div>
+</footer>
+<script src="/js/modal.js"></script>
+<script src="/js/skill-menu.js"></script></body>
+</html>
